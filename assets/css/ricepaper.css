@@ -1,3 +1,25 @@
-"test"
+header
+{
+	display:flex;
+	justify-content: center;
+	background: gray;
 
-10:15
+}
+
+.container
+{
+	display: grid;
+	grid-template-columns: [content] 1fr [images] 1fr;
+}
+
+.content 
+{
+	grid-column: content;
+	background: blue;
+}
+
+.images
+{
+	grid-column: images;
+	background: yellow;
+}
