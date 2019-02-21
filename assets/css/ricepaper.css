@@ -2,8 +2,19 @@ header
 {
 	display:flex;
 	justify-content: center;
+	align-items: center;
 	background: gray;
+}
 
+.navLink
+{
+	padding: 0 25px;
+}
+
+#logo
+{
+	width: 5%;
+	height: 5%;
 }
 
 .container
@@ -16,10 +27,14 @@ header
 {
 	grid-column: content;
 	background: blue;
+	width: 10px;
+    height: 10px;
 }
 
 .images
 {
 	grid-column: images;
 	background: yellow;
+	width: 10px;
+    height: 10px;
 }
