@@ -20,21 +20,28 @@ header
 .container
 {
 	display: grid;
-	grid-template-columns: [content] 1fr [images] 1fr;
+	grid-template-columns: [content] minmax(0, 1fr) [images] minmax(0, 1fr);
 }
 
 .content 
 {
 	grid-column: content;
 	background: blue;
-	width: 10px;
-    height: 10px;
+
 }
 
-.images
+#l-splash
+{
+
+}
+
+.image-window
 {
 	grid-column: images;
 	background: yellow;
-	width: 10px;
-    height: 10px;
+}
+
+#r-splash
+{
+
 }
