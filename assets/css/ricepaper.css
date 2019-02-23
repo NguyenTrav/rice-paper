@@ -17,10 +17,17 @@ header
 	height: 5%;
 }
 
-.container
+/*.container
 {
 	display: grid;
 	grid-template-columns: [content] minmax(0, 1fr) [images] minmax(0, 1fr);
+}*/
+
+
+.container
+{
+	display: grid;
+	grid-template-columns: [content] 1fr [images] 1fr
 }
 
 .content 
@@ -32,10 +39,10 @@ header
 
 #l-splash
 {
-
+`	overflow: hidden;  /* NEW */
 }
 
-.image-window
+.images
 {
 	grid-column: images;
 	background: yellow;
@@ -43,5 +50,5 @@ header
 
 #r-splash
 {
-
+`	overflow: hidden;  /* NEW */
 }
