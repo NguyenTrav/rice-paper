@@ -9,6 +9,8 @@ header
 body 
 {
 	height: 10000px
+	max-width: 100%;
+    overflow-x: hidden;
 }
 
 .navLink
@@ -48,19 +50,30 @@ body
 }
 		
 .spacing {
-    height: 100px;
+    height: 50px;
 }
 	
 .image-block {
-  background-image: url("https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2017/11/12225627/Pomeranian-On-White-01.jpg");
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  margin: 0 auto;
-  min-height: 30%; 
-  max-width: 65%;
-  
+	width: 600px;
+  	height: 400px;
+  	margin: 100px auto 0;
+  	border:5px solid red;
+  	background: url("https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2017/11/12225627/Pomeranian-On-White-01.jpg") 
+  	calc(75% + 200px) 250px /800px auto fixed no-repeat;
+}
+
+
+}
+
+.image-block2 {
+	background-image: url("https://www.dogster.com/wp-content/uploads/2017/08/A-pomeranian-on-grass.jpg");
+   	background-attachment: fixed;
+   	background-position: center;
+   	background-repeat: no-repeat;
+   	background-size: contain;
+   	margin: 0 auto;
+   	min-height: 30%; 
+   	max-width: 65%;
 
 }
 
