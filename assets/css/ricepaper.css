@@ -13,11 +13,15 @@ body
     height: 10000px
     padding: 0px;
 	margin: 0px;
+	font-family: 'Montserrat', sans-serif;
 }
+
 
 .navLink
 {
 	padding: 0 25px;
+	font-weight: 300;
+	text-transform: uppercase;
 }
 
 #logo
@@ -44,10 +48,23 @@ body
 	font-size: 2.5vw;
 }
 
+.section-story
+{	
+	margin: 6vw 0;
+	padding: 0 4vw;
+}
+
 .story-text
 {
 	font-size: 1.1vw;
 	line-height: 1.6;
+}
+
+.section-menu
+{
+	margin-bottom: 6vw;
+	padding: 0 4vw;
+
 }
 
 .menu-fav
@@ -65,8 +82,15 @@ body
 	font-size: 1.2vw;
 }
 
+.section-awards
+{
+	margin-bottom: 6vw;
+	padding: 0 4vw;	
+}
+
 .award-title
 {
+
 	text-align: center;
 	line-height: 1.6;
 }
@@ -77,16 +101,28 @@ body
 	line-height: 1.6;
 }
 
+.section-contact
+{
+	margin-bottom: 6vw;
+	padding: 0 4vw;
+
+}
+
 .images
 {
 	grid-column: images;
-	/*background: white;*/
 	text-align: center;
 }
 		
 .spacing {
     height: 50px;
     background: yellow;
+}
+
+#caption
+{
+	font-weight: 300;
+	text-transform: uppercase;
 }
 	
 .image-block {
