@@ -4,6 +4,9 @@ header
 	justify-content: center;
 	align-items: center;
 	background: gray;
+	position: sticky;
+	width:100%;
+	top:0;
 }
 
 body 
@@ -14,6 +17,8 @@ body
     padding: 0px;
 	margin: 0px;
 	font-family: 'Montserrat', sans-serif;
+	color: white;
+	font-weight: 200;
 }
 
 
@@ -22,6 +27,7 @@ body
 	padding: 0 25px;
 	font-weight: 300;
 	text-transform: uppercase;
+
 }
 
 #logo
@@ -121,6 +127,11 @@ body
 	line-height: 3vw;
 }
 
+.contact-links
+{
+	text-decoration: none;
+}
+
 
 
 .time
@@ -140,8 +151,9 @@ body
 }
 		
 .spacing {
-    height: 50px;
+    height: 80px;
     background: yellow;
+    width: 100%;
 }
 
 #caption
