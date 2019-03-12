@@ -13,7 +13,7 @@ body
 {
 	max-width: 100%;
     overflow-x: hidden;
-    height: 10000px
+    height: 1000px
     padding: 0px;
 	margin: 0px;
 	font-family: 'Montserrat', sans-serif;
@@ -142,7 +142,7 @@ body
 
 
 
-/*Left grid*/
+/*right grid*/
 
 .images
 {
@@ -151,18 +151,20 @@ body
 }
 		
 .spacing {
-    height: 80px;
+    height: 70px;
     background: yellow;
     width: 100%;
 }
 
 #caption
 {
+	padding-top: 5%;
 	font-weight: 300;
 	text-transform: uppercase;
+	color: red;
 }
 	
-.image-block {
+.image-greet {
 	width: 600px;
   	height: 500px;
   	margin: 100px auto 0;
@@ -173,10 +175,10 @@ body
   	background-repeat: no-repeat;
 }
 
-.story {
+.image-about {
 	width: 600px;
   	height: 400px;
-  	margin: 100px auto 0;
+  	margin: 130px auto 0;
   	border:1px solid #D3D3D3;
   	background: url("https://www.dogster.com/wp-content/uploads/2017/08/A-pomeranian-on-grass.jpg")
   	calc(75% + 200px) 350px /800px auto;
