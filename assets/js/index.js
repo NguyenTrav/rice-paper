@@ -52,3 +52,17 @@ $(function()
 		}, 1250); 
 	});
 });
+
+$(function(){
+
+    var t = setInterval(function(){
+
+        $('.banner-image').last().fadeOut(2000,function(){ // 2 second fade duration
+            $this = $(this);
+            $parent = $this.parent();
+            $this.remove().css('display','block'); // remove the faded element
+            $parent.prepend($this); // put it as the first element
+        });
+
+    },3000); // every 3 seconds
+});

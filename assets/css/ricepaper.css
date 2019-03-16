@@ -157,8 +157,8 @@ body
 }
 		
 .spacing {
-    height: 70px;
-    background: yellow;
+    height: 125px;
+    background: white;
     width: 100%;
 }
 
@@ -169,26 +169,60 @@ body
 	text-transform: uppercase;
 	color: red;
 }
-	
+
 .image-greet {
-	width: 600px;
-  	height: 500px;
-  	margin: 100px auto 0;
-  	border:1px solid #D3D3D3;
-  	background: url("https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2017/11/12225627/Pomeranian-On-White-01.jpg")
+  	background: url("https://placekitten.com/1000/1000")
   	calc(75% + 200px) 250px /800px auto;
-  	background-attachment: fixed;
-  	background-repeat: no-repeat;
+
 }
 
 .image-about {
+  	background: url("https://placekitten.com/950/950")
+  	calc(75% + 200px) 250px /800px auto;
+
+}
+
+.image-menu {
+  	background: url("https://placekitten.com/900/900")
+  	calc(75% + 200px) 250px /800px auto;
+
+}
+
+.image-press {
+  	background: url("https://placekitten.com/850/850")
+  	calc(75% + 200px) 250px /800px auto;
+
+}
+
+.image-contact {
+  	background: url("https://placekitten.com/800/800")
+  	calc(75% + 200px) 250px /800px auto;
+
+}
+
+.image-greet, .image-about, .image-menu, .image-press, .image-contact{
 	width: 600px;
-  	height: 400px;
-  	margin: 130px auto 0;
-  	border:1px solid #D3D3D3;
-  	background: url("https://www.dogster.com/wp-content/uploads/2017/08/A-pomeranian-on-grass.jpg")
-  	calc(75% + 200px) 350px /800px auto;
+  	height: 500px;
+  	margin: 100px auto 0;
   	background-attachment: fixed;
   	background-repeat: no-repeat;
+  	background-position: right;
+}
 
+.menu-container{
+    width:600px;
+    height:500px;
+    position:relative;
+    margin: 100px auto 0;
+}
+.banner-image { 
+background:transparent url(https://placekitten.com/1000/1000) no-repeat center center;
+-webkit-background-size:cover;
+-moz-background-size:cover;
+background-size:cover; 
+height:500px; 
+width: 600px;
+    position:absolute;
+    top:0px;
+    left:0px;
 }
