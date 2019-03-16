@@ -64,5 +64,5 @@ $(function(){
             $parent.prepend($this); // put it as the first element
         });
 
-    },3000); // every 3 seconds
+    },3500); // every 3 seconds
 });

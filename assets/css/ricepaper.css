@@ -209,7 +209,7 @@ body
   	background-position: right;
 }
 
-.menu-container{
+.menu-container {
     width:600px;
     height:500px;
     position:relative;
@@ -225,4 +225,5 @@ width: 600px;
     position:absolute;
     top:0px;
     left:0px;
+z-index: -999;
 }
