@@ -208,22 +208,3 @@ body
   	background-repeat: no-repeat;
   	background-position: right;
 }
-
-.menu-container {
-    width:600px;
-    height:500px;
-    position:relative;
-    margin: 100px auto 0;
-}
-.banner-image { 
-background:transparent url(https://placekitten.com/1000/1000) no-repeat center center;
--webkit-background-size:cover;
--moz-background-size:cover;
-background-size:cover; 
-height:500px; 
-width: 600px;
-    position:absolute;
-    top:0px;
-    left:0px;
-z-index: -999;
-}
