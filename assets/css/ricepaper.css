@@ -7,7 +7,7 @@ header
 	position: sticky;
 	width:100%;
 	top:0;
-	border: 2px solid #acbd93;
+	border: 1px solid #acbd93;
 	border-bottom: 0;
 }
 
@@ -28,7 +28,7 @@ body
 	position: -webkit-sticky;
 	position: sticky;
 	top: 0%;
-	color: #2f6e84;
+	color: #80985d;
 }
 
 .navLink
@@ -109,11 +109,14 @@ body
 	margin-bottom: 4vh;
 }
 
-#menu-link
+#menu-button
 {
-	font-size: 1.8vw;
-	text-transform: uppercase;
-	text-decoration: none;
+    width: auto;
+    max-width: 400px;
+    margin: 80px auto;
+    padding: 0 20px;
+    font-size: 1.5vw;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .award-title
@@ -165,7 +168,6 @@ body
 {
 	grid-column: images;
 	text-align: center;
-	background: #ffffff;
 
 }
 		
@@ -179,13 +181,13 @@ body
 	padding-top: 5%;
 	font-weight: 300;
 	text-transform: uppercase;
-	color: #acbd93;
+	color: #80985d;
 
 }
 
 .image-greet {
   	background: url("https://images.unsplash.com/photo-1511910849309-0dffb8785146?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60")
-  	calc(75% + 200px) 250px /700px auto;
+  	calc(75% + 200px) 250px /800px auto;
 
 }
 
@@ -203,7 +205,7 @@ body
 
 .image-press {
   	background: url("https://oldtowncrier.files.wordpress.com/2014/10/chef-phuong-ho-14-8-7-27.jpeg")
-  	calc(75% + 200px) 250px /750px auto;
+  	calc(75% + 200px) 250px /775px auto;
 
 }
 
@@ -214,9 +216,9 @@ body
 }
 
 .image-greet, .image-about, .image-menu, .image-press, .image-contact{
-	width: 600px;
+	width: 650px;
   	height: 500px;
-  	margin: 100px auto 0;
+  	margin: 125px auto 0;
   	background-attachment: fixed;
   	background-repeat: no-repeat;
   	background-position: right;
