@@ -3,10 +3,12 @@ header
 	display:flex;
 	justify-content: center;
 	align-items: center;
-	background: #acbd93;
+	background: #fffaf0;
 	position: sticky;
 	width:100%;
 	top:0;
+	border: 2px solid #acbd93;
+	border-bottom: 0;
 }
 
 body 
@@ -17,7 +19,7 @@ body
     padding: 0px;
 	margin: 0px;
 	font-family: 'Montserrat', sans-serif;
-	color: #ffffff;
+	color: #fffaf0;
 	font-weight: 200;
 }
 
@@ -41,6 +43,14 @@ body
 {
 	width: 5%;
 	height: 5%;
+}
+
+#blob
+{
+	width: 2.25%;
+	height: 2.25%;
+	display: block;
+	margin: 0 auto;
 }
 
 .container
@@ -155,11 +165,12 @@ body
 {
 	grid-column: images;
 	text-align: center;
+	background: #ffffff;
+
 }
 		
 .spacing {
     height: 125px;
-    background: #ffffff;
     width: 100%;
 }
 
@@ -168,7 +179,8 @@ body
 	padding-top: 5%;
 	font-weight: 300;
 	text-transform: uppercase;
-	color: #2f6e84;
+	color: #acbd93;
+
 }
 
 .image-greet {
@@ -196,7 +208,7 @@ body
 }
 
 .image-contact {
-  	background: url("https://placekitten.com/800/800")
+  	background: url("https://images.unsplash.com/photo-1483648969698-5e7dcaa3444f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60")
   	calc(75% + 200px) 250px /800px auto;
 
 }
