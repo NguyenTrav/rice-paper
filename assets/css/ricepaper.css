@@ -111,6 +111,8 @@ body
 
 #menu-button
 {
+    height: 80px;
+    line-height: 80px;
     width: auto;
     max-width: 400px;
     margin: 80px auto;
@@ -172,8 +174,15 @@ body
 }
 		
 .spacing {
-    height: 125px;
+    height: 150px;
     width: 100%;
+}
+
+.image-greet {
+  	background: url("https://images.unsplash.com/photo-1511910849309-0dffb8785146?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60")
+  	calc(75% + 165px) 140px /660px auto;
+  	/*calc (middle of right grid + how pushed to the rigth) how far push down from top / zoom*/
+  	border-top: 20px;
 }
 
 #caption
@@ -182,30 +191,28 @@ body
 	font-weight: 300;
 	text-transform: uppercase;
 	color: #80985d;
-
-}
-
-.image-greet {
-  	background: url("https://images.unsplash.com/photo-1511910849309-0dffb8785146?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60")
-  	calc(75% + 200px) 250px /800px auto;
+	margin-bottom: 30%;	
 
 }
 
 .image-about {
   	background: url("https://images.unsplash.com/photo-1519288997835-7ae47de1b588?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80")
-  	calc(75% + 200px) 250px /800px auto;
+  	calc(75% + 200px) 150px /800px auto;
+
 
 }
 
 .image-menu {
   	background: url("https://images.unsplash.com/photo-1527498580783-4656d37cba65?ixlib=rb-1.2.1&auto=format&fit=crop&w=976&q=80")
-  	calc(75% + 200px) 250px /750px auto;
+  	calc(75% + 165px) 140px /660px auto;
+  	padding-bottom: 65%;
+
 
 }
 
 .image-press {
   	background: url("https://oldtowncrier.files.wordpress.com/2014/10/chef-phuong-ho-14-8-7-27.jpeg")
-  	calc(75% + 200px) 250px /775px auto;
+  	calc(75% + 165px) 135px /680px auto;
 
 }
 
@@ -221,5 +228,5 @@ body
   	margin: 125px auto 0;
   	background-attachment: fixed;
   	background-repeat: no-repeat;
-  	background-position: right;
+  	/*border: 1px solid red;*/
 }
