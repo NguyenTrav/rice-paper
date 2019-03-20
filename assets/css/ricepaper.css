@@ -139,6 +139,8 @@ body
 	text-align: center;
 	line-height: 1.6;
 	margin-bottom: .5vh;
+	font-weight: 350;
+	letter-spacing: 1.1px;
 }
 
 .award-publisher
@@ -146,12 +148,13 @@ body
 	font-size: 1.2vw;
 	text-align: center;
 	line-height: 1.6;
-	margin-bottom: 3.5vh;
+	margin-bottom: 5vh;
 }
 
 .award-link
 {
 	text-decoration: none;
+	color: #fffaf0;
 }
 
 .contact-desc
