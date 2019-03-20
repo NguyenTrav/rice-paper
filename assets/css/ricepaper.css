@@ -51,6 +51,7 @@ body
 	height: 2.25%;
 	display: block;
 	margin: 0 auto;
+	margin-top: 5%;
 }
 
 .container
@@ -70,11 +71,11 @@ body
 {
 	font-size: 2.5vw;
 	padding-bottom: 2.5%;
+
 }
 
 .section-story
 {	
-	margin: 6vw 0;
 	padding: 0 4vw;
 }
 
@@ -84,16 +85,18 @@ body
 	line-height: 1.6;
 }
 
-.section-menu, .section-awards, .section-contact
+.section-story, .section-menu, .section-awards, .section-contact
 {
-	margin-bottom: 6vw;
 	padding: 0 4vw;
+	margin: 6vw 1vw;
+	margin-bottom: 6vw;
 
 }
 
 .menu-fav
 {
 	font-size: 1.8vw;
+	font-weight: 300;
 }
 
 .menu-name
@@ -106,7 +109,7 @@ body
 {
 	font-size: 1.2vw;
 	line-height: 1.6;
-	margin-bottom: 4vh;
+	margin-bottom: 4.5vh;
 }
 
 #wrapper
@@ -121,7 +124,8 @@ body
 {
 	height: 80px;
 	width: 400px;
-	font-size: 18px;
+	font-size: 1.2vw;
+	font-weight: 300;
 	letter-spacing: 2px;
 	line-height: 80px;
 	color: #fffaf0;
@@ -199,7 +203,7 @@ body
 	font-weight: 300;
 	text-transform: uppercase;
 	color: #80985d;
-	margin-bottom: 30%;	
+	margin-bottom: 27%;	
 
 }
 
@@ -213,14 +217,18 @@ body
 .image-menu {
   	background: url("https://images.unsplash.com/photo-1527498580783-4656d37cba65?ixlib=rb-1.2.1&auto=format&fit=crop&w=976&q=80")
   	calc(75% + 165px) 140px /660px auto;
-  	padding-bottom: 65%;
-
-
+  	padding-bottom: 61%;
 }
 
-.image-press {
+.image-awards {
   	background: url("https://oldtowncrier.files.wordpress.com/2014/10/chef-phuong-ho-14-8-7-27.jpeg")
-  	calc(75% + 165px) 75px /680px auto;
+  	calc(75% + 165px) 15px /690px auto;
+  	width: 650px;
+  	height: 500px;
+  	margin: 35px auto 0;
+  	background-attachment: fixed;
+  	background-repeat: no-repeat;
+  	border: 1px solid red;
 
 }
 
@@ -230,11 +238,11 @@ body
 
 }
 
-.image-greet, .image-about, .image-menu, .image-press, .image-contact{
+.image-greet, .image-about, .image-menu, .image-contact{
 	width: 650px;
   	height: 500px;
   	margin: 125px auto 0;
   	background-attachment: fixed;
   	background-repeat: no-repeat;
-  	/*border: 1px solid red;*/
+  	border: 1px solid red;
 }
