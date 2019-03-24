@@ -7,8 +7,8 @@ header
 	position: sticky;
 	width:100%;
 	top:0;
-/*	border: 1px solid #acbd93;*/
-/*	border-bottom: 0;*/
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
 }
 
 body 
@@ -18,9 +18,9 @@ body
     height: 1000px
     padding: 0px;
 	margin: 0px;
-	font-family: 'Montserrat', sans-serif;
 	color: #fffaf0;
-	font-weight: 200;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 300;
 }
 
 .nav
@@ -30,6 +30,7 @@ body
 	top: 0%;
 	color: #80985d;
 }
+
 
 .navLink
 {
@@ -47,8 +48,8 @@ body
 
 #blob
 {
-	width: 2.25%;
-	height: 2.25%;
+	width: 5%;
+	height: 5%;
 	display: block;
 	margin: 0 auto;
 	margin-top: 7%;
@@ -71,6 +72,9 @@ body
 {
 	font-size: 2.5vw;
 	padding-bottom: 2.5%;
+	font-weight: 300;
+	text-transform: uppercase; 
+	font-family: 'Montserrat', sans-serif;
 
 }
 
@@ -131,6 +135,7 @@ body
 	color: #fffaf0;
 	background: #255566;
 	border: none;
+	text-transform: uppercase;
 }
 
 .award-title
@@ -139,7 +144,7 @@ body
 	text-align: center;
 	line-height: 1.6;
 	margin-bottom: .5vh;
-	font-weight: 350;
+	font-weight: 300;
 	letter-spacing: 1.1px;
 }
 
@@ -149,6 +154,7 @@ body
 	text-align: center;
 	line-height: 1.6;
 	margin-bottom: 6vh;
+	font-weight: 200;
 }
 
 .award-link
@@ -169,12 +175,14 @@ body
 	text-decoration: none;
 	color: #acbd93;
 	font-size: 1.2vw;
+	display: block;
 }
 
 .time
 {
 	font-size: 1.1vw;
 }
+
 
 
 
@@ -207,6 +215,7 @@ body
 	text-transform: uppercase;
 	color: #80985d;
 	margin-bottom: 27%;	
+	font-family: 'Montserrat', sans-serif;
 
 }
 
