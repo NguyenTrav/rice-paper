@@ -1,7 +1,7 @@
-@font-face {
-    font-family: Gotham;
-    src: url("assets/Gotham/Gotham-Thin.otf") format("Gotham");
-}
+/*@font-face {
+    font-family: Gotham-Light;
+    src: url("/Users/travisnguyen/Documents/Rice Paper/rice-paper/assets/Gotham/Gotham/Gotham-Light.otf") format("opentype");
+}*/
 
 header
 {
@@ -13,6 +13,7 @@ header
 	width:100%;
 	top:0;
 	font-family: 'Montserrat', sans-serif;
+/*	font-family: 'Gotham-Light', gotham;*/
 	font-weight: 300;
 	font-size: 1vw;
 }
