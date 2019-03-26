@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Gotham;
+    src: url("assets/Gotham/Gotham-Thin.otf") format("Gotham");
+}
+
 header
 {
 	display:flex;
@@ -9,6 +14,7 @@ header
 	top:0;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 300;
+	font-size: 1vw;
 }
 
 body 
@@ -21,6 +27,7 @@ body
 	color: #fffaf0;
 	font-family: 'Work Sans', sans-serif;
 	font-weight: 300;
+
 }
 
 .nav
@@ -43,8 +50,11 @@ body
 
 #logo
 {
-	width: 5%;
-	height: 5%;
+	margin-left: 3.5px;
+	margin-top: 4px;
+	margin-bottom: 4px;
+	width: 4%;
+	height: 4%;
 	cursor: pointer;
 }
 
