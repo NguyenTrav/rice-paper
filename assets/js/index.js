@@ -33,9 +33,9 @@ $(function()
 
 $(function() 
 { 
-	$("#awards-scroll").on('click', function() 
+	$("#press-scroll").on('click', function() 
 		{ 
-			var position = $(".section-awards").offset().top - 135; 
+			var position = $(".section-press").offset().top - 135; 
 
 			$("HTML, BODY").animate({ scrollTop: position 
 		}, 1000); 

@@ -102,7 +102,7 @@ body
 	line-height: 1.6;
 }
 
-.section-story, .section-menu, .section-awards, .section-contact
+.section-story, .section-menu, .section-press, .section-contact
 {
 	padding: 0 4vw;
 	margin: 6vw 1vw;
@@ -152,7 +152,7 @@ body
 	cursor: pointer;
 }
 
-.award-title
+.press-title
 {
 	font-size: 1.8vw;
 	text-align: center;
@@ -162,7 +162,7 @@ body
 	letter-spacing: 1.1px;
 }
 
-.award-publisher
+.press-publisher
 {
 	font-size: 1.2vw;
 	text-align: center;
@@ -171,7 +171,7 @@ body
 	font-weight: 200;
 }
 
-.award-link
+.press-link
 {
 	text-decoration: none;
 	color: #acbd93;
@@ -246,7 +246,7 @@ body
   	padding-bottom: 70%;
 }
 
-.image-awards {
+.image-press {
   	background: url("https://oldtowncrier.files.wordpress.com/2014/10/chef-phuong-ho-14-8-7-27.jpeg")
   	calc(75% + 165px) 15px /690px auto;
   	width: 650px;
