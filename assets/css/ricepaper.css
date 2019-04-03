@@ -181,6 +181,7 @@ body
 .contact-address
 {
 	font-size: 1.5vw;
+	margin-bottom: 0;
 }
 
 .contact-maps
@@ -189,14 +190,14 @@ body
 	color: #acbd93;
 	font-size: 1.2vw;
 	display: block;
-	margin-top: -15px;
-	padding-bottom: 2%;
+	margin-top: -2%;
+	padding-bottom: 1.5%;
 }
 
 .contact-hours
 {
 	font-size: 1.5vw;
-	padding-bottom: 2%;
+	padding-bottom: 1.5%;
 }
 
 .time
@@ -208,16 +209,16 @@ body
 .contact-number
 {
 	font-size: 1.5vw;
-	padding-bottom: 2%;
+	padding-bottom: 1.5%;
 }
 
 .contact-social
 {
+	display: block;
 	text-decoration: none;
 	color: #acbd93;
 	font-size: 1.2vw;
-	display: block;
-	margin-top: -15px;
+	margin-top: -2%;
 }
 
 
