@@ -178,25 +178,46 @@ body
 	color: #acbd93;
 }
 
-.contact-desc
+.contact-address
 {
 	font-size: 1.5vw;
-	margin-bottom: -10px;
-	line-height: 4.0vw;
 }
 
-.contact-links
+.contact-maps
 {
 	text-decoration: none;
 	color: #acbd93;
 	font-size: 1.2vw;
 	display: block;
+	margin-top: -15px;
+	padding-bottom: 2%;
+}
+
+.contact-hours
+{
+	font-size: 1.5vw;
+	padding-bottom: 2%;
 }
 
 .time
 {
 	margin-left: -5px;
 	font-size: .75vw;
+}
+
+.contact-number
+{
+	font-size: 1.5vw;
+	padding-bottom: 2%;
+}
+
+.contact-social
+{
+	text-decoration: none;
+	color: #acbd93;
+	font-size: 1.2vw;
+	display: block;
+	margin-top: -15px;
 }
 
 
