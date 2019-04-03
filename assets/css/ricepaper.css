@@ -120,6 +120,7 @@ body
 {
 	font-size: 1.6vw;
 	margin-bottom: -12px;
+	font-family: 'Montserrat', sans-serif;
 }
 
 .menu-desc
@@ -168,7 +169,7 @@ body
 	text-align: center;
 	line-height: 1.6;
 	margin-bottom: 6vh;
-	font-weight: 200;
+	font-weight: 100;
 }
 
 .press-link
@@ -194,7 +195,8 @@ body
 
 .time
 {
-	font-size: 1.1vw;
+	margin-left: -5px;
+	font-size: .75vw;
 }
 
 
