@@ -19,8 +19,30 @@ header
 	font-size: 1vw;
 }
 
-header > div{
-  width:100px;
+/* makes the menu and press nav link take 1.5*/
+header > div:nth-child(2),
+header > div:nth-child(4){
+  flex:1.25;
+}
+
+/*make the story and contact take more space*/
+header > div:first-child,
+header > div:last-child{
+  flex:8;
+}
+/*align first to right*/
+header > div:first-child {
+ text-align:right;
+}
+
+/*align second and fourth to center*/
+header > div:nth-child(2), div:nth-child(4)
+{
+	text-align: center;
+}
+/*align last to left*/
+header > div:last-child{
+ text-align:left;
 }
 
 body 
@@ -94,6 +116,12 @@ body
 	text-transform: uppercase; 
 	font-family: 'Montserrat', sans-serif;
 
+}
+
+#l-splash
+{	
+	height: 92vh;
+	width: 100%;
 }
 
 .section-story
