@@ -8,14 +8,19 @@ header
 	display:flex;
 	justify-content: center;
 	align-items: center;
+	flex-direction: row;
 	background: #fffaf0;
 	position: sticky;
 	width:100%;
 	top:0;
 	font-family: 'Montserrat', sans-serif;
-/*	font-family: 'Gotham-Light', gotham;*/
+	/*font-family: 'Gotham-Light', gotham;*/
 	font-weight: 300;
 	font-size: 1vw;
+}
+
+header > div{
+  width:100px;
 }
 
 body 
@@ -37,21 +42,21 @@ body
 	position: sticky;
 	top: 0%;
 	color: #80985d;
+
 }
 
 
 .navLink
 {
-	padding: 0 25px;
+	padding: 0 10px;
 	font-weight: 300;
 	text-transform: uppercase;
 	cursor: pointer;
-
+	text-align: center;
 }
 
 #logo
 {
-	margin-left: 3.5px;
 	margin-top: 4px;
 	margin-bottom: 4px;
 	width: 4%;
