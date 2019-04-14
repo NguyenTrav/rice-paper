@@ -324,8 +324,8 @@ body
 .image-press {
   	background: url("https://oldtowncrier.files.wordpress.com/2014/10/chef-phuong-ho-14-8-7-27.jpeg")
   	calc(75% + 165px) 150px /700px auto;
-  	width: 650px;
-  	height: 500px;
+  	width: 78%;
+  	height: 12%;
   	margin: 0 auto 0;
   	background-attachment: fixed;
   	background-repeat: no-repeat;
@@ -339,9 +339,9 @@ body
 }
 	
 .image-greet, .image-about, .image-menu, .image-contact{
-	width: 650px;
-  	height: 500px;
-  	margin: 125px auto 0;
+	width: 78%;
+  	height: 12%;
+  	margin: 15% auto 0;
   	background-attachment: fixed;
   	background-repeat: no-repeat;
 /*  	border: 1px solid red;*/
