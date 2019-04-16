@@ -115,7 +115,7 @@ body
 
 	}
 
-	.parallax_img
+	.image-greet
 	{
 		background-attachment: inherit;
 	}
@@ -276,10 +276,6 @@ body
 	margin-top: -2%;
 }
 
-
-
-
-
 /*right grid*/
 
 .images
@@ -290,15 +286,16 @@ body
 }
 		 
 .spacing {
-    height: 150px;
+    height: 3.6%;
     width: 100%;
 }
 
 .image-greet {
   	background: url("https://images.unsplash.com/photo-1511910849309-0dffb8785146?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60")
-  	calc(75% + 165px) 150px /660px auto;
+  	calc(75% + 165px) 150px /10px auto;
   	/*calc (middle of right grid + how pushed to the rigth) how far push down from top / zoom*/
-  	border-top: 20px;
+  	border-top: 15%;
+  	background-size: 40% auto;
 }
 
 #caption
@@ -312,26 +309,9 @@ body
 
 }
 
-.parallax_img 
-	{
-		  	background: url("https://images.unsplash.com/photo-1511910849309-0dffb8785146?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60")
-  			calc(75% + 165px) 150px /500px auto;
-  			/*calc (middle of right grid + how pushed to the rigth) how far push down from top / zoom*/
-  			border-top: 20px;
-  			width: 78%;
-		  	height: 12%;
-		  	/*margin: auto 0;*/
-		  	margin: 15% auto 0;
-		  	background-attachment: fixed;
-		  	background-repeat: no-repeat;
-		  	background-size: 40% auto;
-
-	}
-
 .image-about {
   	background: url("https://images.unsplash.com/photo-1519288997835-7ae47de1b588?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80")
-  	calc(75% + 200px) 150px /800px auto;
-
+  	calc(75% + 200px) 115px /800px auto;
 
 }
 
@@ -343,7 +323,7 @@ body
 
 .image-press {
   	background: url("https://oldtowncrier.files.wordpress.com/2014/10/chef-phuong-ho-14-8-7-27.jpeg")
-  	calc(75% + 165px) 150px /700px auto;
+  	calc(75% + 165px) 10px /700px auto;
   	width: 78%;
   	height: 12%;
   	margin: 0 auto 0;
@@ -364,5 +344,5 @@ body
   	margin: 15% auto 0;
   	background-attachment: fixed;
   	background-repeat: no-repeat;
-  	border: 1px solid red;
+/*  	border: 1px solid red;*/
 }
