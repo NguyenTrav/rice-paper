@@ -10,7 +10,7 @@ header
 	top:0;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 300;
-	font-size: 1vw;
+	font-size: calc(0.5em + 1vmin);
 }
 
 /* makes the menu and press nav link take 1.5*/
@@ -74,8 +74,8 @@ body
 
 #logo
 {
-	margin-top: 4px;
-	margin-bottom: 4px;
+	margin-top:.22%;
+	margin-bottom: .22%;
 	width: 4%;
 	height: 4%;
 	cursor: pointer;
@@ -109,12 +109,6 @@ body
 		display: none;
 	}
 
-	title
-	{
-		  font-size: calc([] + ([maximum size] - [minimum size]) * ((100vw - [minimum viewport width]) / ([maximum viewport width] - [minimum viewport width])));
-
-	}
-
 	.image-greet
 	{
 		background-attachment: inherit;
@@ -130,7 +124,7 @@ body
 
 .title
 {
-	font-size: 2.5vw;
+	font-size: calc(1.2em + 2.5vmin);
 	padding-bottom: 2.5%;
 	font-weight: 300;
 	text-align: left;
@@ -153,7 +147,8 @@ body
 
 .story-text
 {
-	font-size: 1.1vw;
+	/*font-size: 1.1vw;*/
+	font-size: calc(0.75em + 1.1vmin);
 	line-height: 1.6;
 }
 
@@ -167,20 +162,20 @@ body
 
 .menu-fav
 {
-	font-size: 1.8vw;
+	font-size: calc(0.75em + 1.8vmin);
 	font-weight: 300;
 }
 
 .menu-name
 {
-	font-size: 1.6vw;
+	font-size: calc(0.75em + 1.6vmin);
 	margin-bottom: -12px;
 	font-family: 'Montserrat', sans-serif;
 }
 
 .menu-desc
 {
-	font-size: 1.2vw;
+	font-size: calc(0.62em + 1.25vmin);
 	line-height: 1.6;
 	margin-bottom: 4.5vh;
 }
@@ -197,7 +192,7 @@ body
 {
 	height: 80px;
 	width: 400px;
-	font-size: 1.2vw;
+	font-size: calc(0.50em + 1.2vmin);
 	font-weight: 300;
 	letter-spacing: 2px;
 	line-height: 80px;
@@ -210,7 +205,7 @@ body
 
 .press-title
 {
-	font-size: 1.8vw;
+	font-size: calc(0.75em + 1.8vmin);
 	text-align: center;
 	line-height: 1.6;
 	margin-bottom: .5vh;
@@ -220,7 +215,7 @@ body
 
 .press-publisher
 {
-	font-size: 1.2vw;
+	font-size: calc(0.75em + 1.2vmin);
 	text-align: center;
 	line-height: 1.6;
 	margin-bottom: 6vh;
@@ -235,7 +230,7 @@ body
 
 .contact-address
 {
-	font-size: 1.5vw;
+	font-size: calc(0.70em + 1.5vmin);
 	margin-bottom: 0;
 }
 
@@ -243,7 +238,7 @@ body
 {
 	text-decoration: none;
 	color: #acbd93;
-	font-size: 1.2vw;
+	font-size: calc(0.70em + 1.2vmin);
 	display: block;
 	margin-top: -2%;
 	padding-bottom: 1.5%;
@@ -251,19 +246,20 @@ body
 
 .contact-hours
 {
-	font-size: 1.5vw;
+	font-size: calc(0.70em + 1.5vmin);
 	padding-bottom: 1.5%;
 }
 
 .time
 {
 	margin-left: -5px;
-	font-size: .75vw;
+	font-size: calc(0.50em + .50vmin);
+
 }
 
 .contact-number
 {
-	font-size: 1.5vw;
+	font-size: calc(0.70em + 1.5vmin);
 	padding-bottom: 1.5%;
 }
 
@@ -272,7 +268,7 @@ body
 	display: block;
 	text-decoration: none;
 	color: #acbd93;
-	font-size: 1.2vw;
+	font-size: calc(0.70em + 1.2vmin);
 	margin-top: -2%;
 }
 
@@ -301,6 +297,7 @@ body
 #caption
 {
 	padding-top: 5%;
+	font-size: calc(0.75em + 2.0vmin);
 	font-weight: 300;
 	text-transform: uppercase;
 	color: #80985d;
@@ -329,7 +326,7 @@ body
   	margin: 0 auto 0;
   	background-attachment: fixed;
   	background-repeat: no-repeat;
-/*  	border: 1px solid red;*/
+  	border: 1px solid red;
 
 }
 
@@ -344,5 +341,5 @@ body
   	margin: 15% auto 0;
   	background-attachment: fixed;
   	background-repeat: no-repeat;
-/*  	border: 1px solid red;*/
+  	border: 1px solid red;
 }
