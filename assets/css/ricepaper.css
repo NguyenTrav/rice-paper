@@ -278,6 +278,11 @@ body
 	{
 		display: none;
 	}
+
+	#l-splash
+	{
+		height: 100vh;
+	}
 	
 	#overlay-filter
 	{
@@ -285,7 +290,7 @@ body
 		display: block;
 		z-index: 100;
   		width: 200%;
-		height: 200%
+		height: 200%;
     	transform: translate(-50%,-50%);
     	background: rgb(255, 250, 240, 0.5);	
 	}
@@ -307,25 +312,27 @@ body
 		display: block;
 		text-align: left; 
 		position: absolute;
-  		left: 25%;
+  		left: 75%;
   		transform: translate(-50%, -50%);
   		font-size: calc(0.70em + 1.5vmin);
   		color: #fffaf0;
+  		color: #2f6e84;
+  		font-weight: bold;	
 	}
 
 	#overlay-address
 	{
-		top: 75%;
+		top: 85%;
 	}
 
 	#overlay-hours
 	{
-  		top: 79%;
+  		top: 87%;
 	}
 
 	#overlay-number
 	{
-  		top: 83%;
+  		top: 89%;
 	}
 
 	.image-greet
