@@ -129,7 +129,7 @@ body
 	display: none;
 }
 
-#overlay-logo, #overlay-address, #overlay-hours, #overlay-number
+#overlay-logo, #overlay-address-1,#overlay-address-2 #overlay-hours, #overlay-number
 {
 	display: none;	
 }
@@ -267,84 +267,6 @@ body
 	margin-top: -2%;
 }
 
-
-@media screen and (min-width: 320px) and (max-width: 768px) 
-{ 
-  	.container
-	{
-		display: grid;
-		grid-template-columns: [content] 100%;
-	} 
-
-	header, .images
-	{
-		display: none;
-	}
-
-	#l-splash
-	{
-		height: 100vh;
-	}
-	
-	#overlay-filter
-	{
-		position: absolute;
-		display: block;
-		z-index: 100;
-  		width: 200%;
-		height: 200%;
-    	transform: translate(-50%,-50%);
-    	background: rgb(172,172,172, 0.75);
-	}
-
-	#overlay-logo
-	{	
-		position: absolute;
-		display: block;
-		z-index: 999;
-  		height: 45%;
-  		left: 50%;
-    	top: 30%;
-    	transform: translate(-50%,-50%);	
-    	
-	}
-
-	#overlay-address, #overlay-hours, #overlay-number
-	{
-		display: block;
-		text-align: center; 
-		position: absolute;
-  		left: 75%;
-  		transform: translate(-50%, -50%);
-  		font-size: calc(0.70em + 1.5vmin);
-  		color: #fffaf0;
-  		color: #2f6e84;
-  		font-weight: bold;
-	}
-
-	#overlay-address
-	{
-		top: 85%;
-		width: 40%;
-	}
-
-	#overlay-hours
-	{
-  		top: 87%;
-	}
-
-	#overlay-number
-	{
-  		top: 89%;
-	}
-
-	.image-greet
-	{
-		background-attachment: inherit;
-	}
-
-}
-
 /*right grid*/
 
 .images
@@ -421,4 +343,111 @@ body
 }
 
 /*calc (middle of right grid + how pushed to the rigth) how far push down from top / zoom*/
+
+
+/*// Extra small devices (portrait phones, less than 576px)*/
+
+
+/*// Small devices (landscape phones, less than 768px)*/
+@media (max-width: 575.98px) and (max-width: 767.98px)
+{ 
+	.container
+	{
+		display: grid;
+		grid-template-columns: [content] 100%;
+	} 
+
+	header, .images
+	{
+		display: none;
+	}
+
+	#l-splash
+	{
+		height: 100vh;
+	}
+	
+	#overlay-filter
+	{
+		position: absolute;
+		display: block;
+		z-index: 100;
+  		width: 200%;
+		height: 200%;
+    	transform: translate(-50%,-50%);
+    	background: rgb(172,172,172, 0.75);
+	}
+
+	#overlay-logo
+	{	
+		position: absolute;
+		display: block;
+		z-index: 999;
+  		height: 38%;
+  		left: 50%;
+    	top: 40%;
+    	transform: translate(-50%,-50%);	
+    	
+	}
+
+	#overlay-address-1,#overlay-address-2, #overlay-hours, #overlay-number
+	{
+		display: block;
+		text-align: center; 
+		position: absolute;
+  		left: 75%;
+  		transform: translate(-50%, -50%);
+  		font-size: calc(0.75em + 1.8vmin);
+  		color: #fffaf0;
+  		font-weight: bold;
+	}
+
+	#overlay-address-1
+	{
+		top: 87%;
+		width: 50%;
+	}
+	#overlay-address-2
+	{
+		top: 89%;
+		width: 50%;
+	}
+
+	#overlay-hours
+	{
+  		top: 91%;
+  		width: 50%;
+	}
+
+	#overlay-number
+	{
+  		top: 93%;
+  		width: 50%;
+	}
+
+	.image-greet
+	{
+		background-attachment: inherit;
+	}
+}
+
+
+
+
+/*// Medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) 
+{
+
+}
+
+/*// Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199.98px) 
+{ 
+
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) 
+{ 
+  
+}
 
