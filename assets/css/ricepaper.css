@@ -105,7 +105,7 @@ body
 
 .title
 {
-	font-size: calc(1.2em + 2.5vmin);
+	font-size: calc(1.1em + 2.5vmin);
 	padding-bottom: 2.5%;
 	font-weight: 300;
 	text-align: left;
@@ -114,13 +114,24 @@ body
 
 }
 
-#l-splash
+#l-container
 {	
+	height: 100vh;
+	min-width: 100%;
+}
+
+#l-splash
+{
+	background: url("https://images.unsplash.com/photo-1526069631228-723c945bea6b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80");
+	height: 100%;	
 	width: 100%;
-	height: 96.25vh;
-	word-break: break-word;
-	word-break: break-all;
-}	
+	position: block;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+
+}
+
 #overlay-filter
 {
 	width: 100%;
@@ -316,7 +327,7 @@ body
     background-repeat: no-repeat;
     background-color: white;
     background-attachment: fixed;
-  	/*border: 1px solid red;*/
+  	border: 1px solid red;
 }
 
 .image-contact {
@@ -328,7 +339,7 @@ body
     background-repeat: no-repeat;
     background-color: white;
     background-attachment: fixed;
-  /*	border: 1px solid red;*/
+  	border: 1px solid red;
 }
 
 
@@ -339,7 +350,7 @@ body
     background-repeat: no-repeat;
     background-color: white;
     background-attachment: fixed;
-  /*	border: 1px solid red;*/
+  	border: 1px solid red;
 }
 
 /*calc (middle of right grid + how pushed to the rigth) how far push down from top / zoom*/
@@ -360,11 +371,6 @@ body
 	header, .images
 	{
 		display: none;
-	}
-
-	#l-splash
-	{
-		height: 100vh;
 	}
 	
 	#overlay-filter
@@ -425,29 +431,77 @@ body
   		width: 50%;
 	}
 
-	.image-greet
-	{
-		background-attachment: inherit;
-	}
+
+
 }
-
-
 
 
 /*// Medium devices (tablets, less than 992px)*/
 @media (max-width: 991.98px) 
 {
+	.image-greet
+	{
 
+	}
+	#caption
+	{
+		margin-bottom: 100%;
+		padding-bottom: 40%;
+	}
+	.image-about 
+	{
+		background-position: 100% 30%;
+  		height: 21.25%;
+  		margin-bottom: 22%;
+	}
+	.image-menu
+	{
+		height: 29.25%;
+		margin-bottom: 22%;
+		background-position: 100% 42.5%;
+	}
+	.image-press
+	{
+		background-position: 95% 42.5%;
+		height: 14%;
+	}
+	.image-contact
+	{
+		background-position: 90% 87.5%;
+		height: 9.5%;
+	}
 }
 
 /*// Large devices (desktops, less than 1200px)*/
 @media (max-width: 1199.98px) 
 { 
-
+/*	.image-greet
+	{
+		height: 12%;
+	}
+	#caption
+	{
+		margin-bottom: 100%;
+	}
+	.image-about 
+	{
+  		height: 21.25%;
+  		margin-bottom: 22%;
+	}
+	.image-menu
+	{
+		height: 29.25%;
+		margin-bottom: 22%;
+	}
+	.image-press
+	{
+		height: 14%;
+		background-position: 95% 22%;
+	}
+	.image-contact
+	{
+		height: 9.5%;
+	}*/
 }
 
-@media screen and (min-width: 320px) and (max-width: 768px) 
-{ 
-  
 }
-
