@@ -298,28 +298,28 @@ body
 	font-weight: 300;
 	text-transform: uppercase;
 	color: #80985d;
-	margin-bottom: 52%;	
+	margin-bottom: 48%;	
 	font-family: 'Montserrat', sans-serif;
 	text-align: center;
 }
 
 .image-about {
   	background: url("https://images.unsplash.com/photo-1519288997835-7ae47de1b588?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80");
-  	height: 12%;
-  	margin-bottom: 20%;
+  	height: 16%;
+  	margin-bottom: 25%;
 }
 
 .image-menu {
   	background: url("https://images.unsplash.com/photo-1527498580783-4656d37cba65?ixlib=rb-1.2.1&auto=format&fit=crop&w=976&q=80");
-  	height: 32%;
-  	margin-bottom: 20%;
+  	height: 27%;
+  	margin-bottom: 24%;
 }
 
 .image-press
 {
 	background: url("https://oldtowncrier.files.wordpress.com/2014/10/chef-phuong-ho-14-8-7-27.jpeg");
-	height: 12%;
-	margin-bottom: 20%;
+	height: 12.5%;
+	margin-bottom: 24%;
 	background-size: 5% auto;
 	width: 100%;
     background-size: 42% auto;
@@ -332,10 +332,10 @@ body
 
 .image-contact {
   	background: url("https://images.unsplash.com/photo-1483648969698-5e7dcaa3444f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60");
-  	height: 12%;
+  	height: 11%;
   	width: 100%;
     background-size: 40% auto;
-    background-position: 90% 98%;
+    background-position: 90% 93%;
     background-repeat: no-repeat;
     background-color: white;
     background-attachment: fixed;
@@ -356,10 +356,138 @@ body
 /*calc (middle of right grid + how pushed to the rigth) how far push down from top / zoom*/
 
 
+/*@media only screen and (min-width : 1224px) 
+{
+	#caption
+	{
+		margin-bottom: 65%;
+
+	}
+	.image-about 
+	{
+		background-position: 100% 24%;
+  		height: 20%;
+  		margin-bottom: 30%;
+	}
+	.image-menu
+	{
+		background-position: 100% 34%;
+		height: 27.5%;
+		margin-bottom: 25%;
+	}
+	.image-press
+	{
+		background-position: 95% 35%;
+		height: 13%;
+		margin-bottom: 30%;
+	}
+	.image-contact
+	{
+		background-position: 90% 92%;
+		height: 7.5%;
+	}
+}*/
+
+/*// Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199.98px) and (orientation: portrait) 
+{ 
+	#caption
+	{
+		margin-bottom: 100%;
+		padding-bottom: 50%;
+	}
+	.image-about 
+	{
+		background-position: 100% 24%;
+  		height: 20%;
+  		margin-bottom: 30%;
+	}
+	.image-menu
+	{
+		background-position: 100% 34%;
+		height: 27.5%;
+		margin-bottom: 25%;
+	}
+	.image-press
+	{
+		background-position: 95% 35%;
+		height: 13%;
+		margin-bottom: 32%;
+	}
+	.image-contact
+	{
+		background-position: 90% 93%;
+		height: 7.5%;
+	}
+}
+
+/*iPad landscape*/
+@media (max-width: 1199.98px) and (orientation: landscape) 
+{ 
+	#caption
+	{
+		margin-bottom: 50%;
+
+	}
+	.image-about 
+	{
+		background-position: 100% 24%;
+  		height: 21.5%;
+  		margin-bottom: 25%
+	}
+	.image-menu
+	{
+		background-position: 100% 34%;
+		height: 28.5%;
+		margin-bottom: 25%;
+	}
+	.image-press
+	{
+		background-position: 95% 35%;
+		height: 13%;
+		margin-bottom: 25%;
+	}
+	.image-contact
+	{
+		background-position: 90% 95%;
+		height: 10.5%;
+	}
+}
+
+/*// Medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) and (orientation: portrait)
+{
+	#caption
+	{
+		margin-bottom: 100%;
+		padding-bottom: 25%;
+	}
+	.image-about 
+	{
+		background-position: 100% 30%;
+  		height: 22%;
+  		margin-bottom: 30%;
+	}
+	.image-menu
+	{
+		height: 29%;
+		margin-bottom: 30%;
+		background-position: 100% 42.5%;
+	}
+	.image-press
+	{
+		background-position: 95% 42.5%;
+		height: 14%;
+	}
+	.image-contact
+	{
+		background-position: 90% 90%;
+		height: 6.5%;
+	}
+}
+
 /*// Extra small devices (portrait phones, less than 576px)*/
-
-
-/*// Small devices (landscape phones, less than 768px)*/
+/*// Small devices (landscape phones, less than 768px) */
 @media (max-width: 575.98px) and (max-width: 767.98px)
 { 
 	.container
@@ -431,77 +559,6 @@ body
   		width: 50%;
 	}
 
-
-
-}
-
-
-/*// Medium devices (tablets, less than 992px)*/
-@media (max-width: 991.98px) 
-{
-	.image-greet
-	{
-
-	}
-	#caption
-	{
-		margin-bottom: 100%;
-		padding-bottom: 40%;
-	}
-	.image-about 
-	{
-		background-position: 100% 30%;
-  		height: 21.25%;
-  		margin-bottom: 22%;
-	}
-	.image-menu
-	{
-		height: 29.25%;
-		margin-bottom: 22%;
-		background-position: 100% 42.5%;
-	}
-	.image-press
-	{
-		background-position: 95% 42.5%;
-		height: 14%;
-	}
-	.image-contact
-	{
-		background-position: 90% 87.5%;
-		height: 9.5%;
-	}
-}
-
-/*// Large devices (desktops, less than 1200px)*/
-@media (max-width: 1199.98px) 
-{ 
-/*	.image-greet
-	{
-		height: 12%;
-	}
-	#caption
-	{
-		margin-bottom: 100%;
-	}
-	.image-about 
-	{
-  		height: 21.25%;
-  		margin-bottom: 22%;
-	}
-	.image-menu
-	{
-		height: 29.25%;
-		margin-bottom: 22%;
-	}
-	.image-press
-	{
-		height: 14%;
-		background-position: 95% 22%;
-	}
-	.image-contact
-	{
-		height: 9.5%;
-	}*/
 }
 
 }
