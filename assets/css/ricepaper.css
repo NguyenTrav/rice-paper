@@ -13,28 +13,26 @@ header
   font-size: calc(0.5em + 1vmin);
 }
 
-/* makes the menu and press nav link take 1.5*/
 header > div:nth-child(2),
 header > div:nth-child(4){
   flex:1.25;
 }
 
-/*make the story and contact take more space*/
 header > div:first-child,
 header > div:last-child{
   flex:8;
 }
-/*align first to right*/
+
 header > div:first-child {
  text-align:right;
 }
 
-/*align second and fourth to center*/
+
 header > div:nth-child(2), div:nth-child(4)
 {
   text-align: center;
 }
-/*align last to left*/
+
 header > div:last-child{
  text-align:left;
 }
@@ -76,7 +74,7 @@ body
   cursor: pointer;
 }
 
-#blob
+.blob
 {
   width: 5%;
   height: 5%;
@@ -89,7 +87,7 @@ body
 {
   display: grid;
   grid-template-columns: [content] minmax(0,1fr) [images] minmax(0,1fr);
-  grid-auto-flow: dense; /* ensures no empty grid cells */
+  grid-auto-flow: dense;
 }
 
 .content, .images 
@@ -154,9 +152,6 @@ body
   grid-column: content;
   background: #2f6e84;
   padding: 0 4vw;
-/*  margin: 6vw 1vw;
-  margin-bottom: 6vw;*/
-
 }
 
 .menu-fav
@@ -185,6 +180,11 @@ body
   justify-content: center;
   margin-top: 8vh;
   margin-bottom: 4vh;
+}
+
+form
+{
+  display: inline;
 }
 
 #menu-button
@@ -319,7 +319,7 @@ body
 
 .image-greet, .image-about, .image-menu, .image-press, .image-contact
 {
-  grid-column: images; /* in second column */
+  grid-column: images;
   margin: 6% auto;
   width: 75%;
   background-size: 50% auto;
@@ -327,7 +327,6 @@ body
   background-repeat: no-repeat;
   background-color: white;
   background-attachment: fixed;
-/*  border: 1px solid red;*/
 }
 
 .image-greet
@@ -346,9 +345,6 @@ body
   background-size: 40% auto;
   background-position: 90% 90%;
 }
-
-/*// Extra small devices (portrait phones, less than 576px)*/
-/*// Small devices (landscape phones, less than 768px) */
 
 @media (max-width: 767.98px)
 { 

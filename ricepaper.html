@@ -2,9 +2,22 @@
 <html lang="en">
    <head>
       <title>Rice Paper</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+      <meta name="description" content="Rice Paper - Taste of Vietnam">
+      <!-- Apple Touch Icon (at least 200x200px) -->
+      <link rel="apple-touch-icon" href="/custom-icon.png">
+
+      <!-- To run web application in full-screen -->
+      <meta name="apple-mobile-web-app-capable" content="yes">
+       
+      <!-- Status Bar Style (see Supported Meta Tags below for available values) -->
+      <!-- Has no effect unless you have the previous meta tag -->
+      <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
       <link rel="stylesheet" type="text/css" href="assets/css/ricepaper.css">
-      <link href="https://fonts.googleapis.com/css?family=Montserrat:300|Work+Sans:100,300&amp;subset=vietnamese" rel="stylesheet">
-      <link href="https://fonts.googleapis.com/css?family=Euphoria+Script|League+Script|Nothing+You+Could+Do" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Montserrat:300%7CWork+Sans:100,300&amp;subset=vietnamese" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Euphoria+Script%7CLeague+Script%7CNothing+You+Could+Do" rel="stylesheet">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <script src="lib/jquery-3.3.1.min.js"></script>
       <script src="lib/jquery-3.3.1.js"></script>
@@ -15,7 +28,7 @@
          <header>
             <div class = "navLink" id="story-scroll">Our Story</div>
             <div class = "navLink" id="menu-scroll">Menu</div>
-            <img src = "assets/blue_blue.png" id="logo" lt="logo">
+            <img src = "assets/blue_blue.png" id="logo" alt="Rice Paper logo">
             <div class = "navLink" id="press-scroll">Press</div>
             <div class = "navLink" id="contact-scroll">Contact</div>
          </header>
@@ -25,7 +38,7 @@
          <div class="content">
 
             <div id= "splash-container">
-               <img id="overlay-logo" src="assets/blue_blue.png" >
+               <img id="overlay-logo" src="assets/blue_blue.png" alt="Rice Paper logo">
                <div id="overlay-filter">
                <p id="overlay-address-1">6775 Wilson Blvd<p>
                <p id="overlay-address-2">Falls Church, VA 22044</p>
@@ -50,7 +63,7 @@
                <p class = "story-text">
                   - Owner, Mai Lam
                </p>
-               <img src = "assets/blob.png" id="blob">
+               <img src = "assets/blob.png" class="blob" alt="watercolor blob">
             </div>
 
 
@@ -79,11 +92,11 @@
                   Combination of Seafood with Sweet Chinese Sausage baked in a Clay Pot with rice and vegetables
                </p>
                <div id="wrapper">
-                  <a href="assets/ricepapermenu.pdf">
-                  <button id="menu-button">See full menu</button>
-                  </a> 
+                  <form action="assets/ricepapermenu.pdf" method="get">
+                     <button id="menu-button">See full menu</button>
+                  </form>
                </div>
-               <img src = "assets/blob.png" id="blob">
+               <img src = "assets/blob.png" class="blob" alt="watercolor blob">
             </div>
 
 
@@ -108,7 +121,7 @@
                <div class="press-publisher">
                   <a class="press-link"  href="https://www.google.com">Washingtonian</a>
                </div>
-               <img src = "assets/blob.png" id="blob">
+               <img src = "assets/blob.png" class="blob" alt="watercolor blob">
             </div>
 
 
@@ -135,7 +148,7 @@
 
             <div class="greet-container">
                <div class="image-greet"></div>
-               <!-- <h2 id="caption">Rice Paper</h2> -->
+               <h2 id="caption">Rice Paper</h2>
             </div>  
             <div class="image-about"></div>
             <div class="image-menu"></div>
