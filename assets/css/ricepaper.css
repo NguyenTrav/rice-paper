@@ -224,7 +224,8 @@ form
 .press-link
 {
   text-decoration: none;
-  color: #acbd93;
+  color:#b2c29a;
+
 }
 
 .contact-address
@@ -237,7 +238,7 @@ form
 .contact-maps
 {
   text-decoration: none;
-  color: #acbd93;
+  color:#b2c29a;
   font-size: calc(0.70em + 1.2vmin);
   display: block;
   margin-top: -2%;
@@ -270,7 +271,7 @@ form
 {
   display: block;
   text-decoration: none;
-  color: #acbd93;
+  color:#b2c29a;
   font-size: calc(0.70em + 1.2vmin);
   margin-top: -2%;
   text-align: left;
