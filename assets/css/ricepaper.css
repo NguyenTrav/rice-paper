@@ -95,6 +95,12 @@ body
   display: contents;
 }
 
+.images
+{
+   -webkit-transition: all 1s ease; transition: all 5s ease;
+
+}
+
 .title
 {
   font-size: calc(1.1em + 2.5vmin);
@@ -112,7 +118,29 @@ body
   min-width: 100%;
 }
 
+/*#l-splash
+{
+  background: url("https://images.unsplash.com/photo-1526069631228-723c945bea6b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80");
+  height: 100%; 
+  width: 100%;
+  position: block;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}*/
+
 #l-splash
+{
+  background: url("http://placekitten.com/g/100/100");
+  height: 100%; 
+  width: 100%;
+  position: block;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#l-splash.load
 {
   background: url("https://images.unsplash.com/photo-1526069631228-723c945bea6b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80");
   height: 100%; 
@@ -294,31 +322,57 @@ form
   text-align: center;
 }
 
-.image-greet {
+.image-greet
+{
+  background: url("https://placekitten.com/g/100/100");
+}
+
+.image-greet.load {
     background: url("https://images.unsplash.com/photo-1511910849309-0dffb8785146?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60");
 }
 
 .image-about 
 {
+    background: url("https://placekitten.com/g/100/100");
+}
+
+.image-about.load
+{
     background: url("https://images.unsplash.com/photo-1519288997835-7ae47de1b588?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80");
 }
 
-.image-menu 
+.image-menu
+{
+  background: url("https://placekitten.com/g/100/100");
+}
+
+.image-menu.load
 {
     background: url("https://images.unsplash.com/photo-1527498580783-4656d37cba65?ixlib=rb-1.2.1&auto=format&fit=crop&w=976&q=80");
 }
 
-.image-press 
+.image-press
+{
+  background: url("https://placekitten.com/g/100/100");
+}
+
+.image-press.load
 {
     background: url("https://oldtowncrier.files.wordpress.com/2014/10/chef-phuong-ho-14-8-7-27.jpeg");
 }
 
 .image-contact
 {
+  background: url("https://placekitten.com/g/100/100");
+}
+
+.image-contact.load
+{
     background: url("https://images.unsplash.com/photo-1483648969698-5e7dcaa3444f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60");
 }
 
-.image-greet, .image-about, .image-menu, .image-press, .image-contact
+.image-greet, .image-about, .image-menu, .image-press, .image-contact, 
+.image-greet.load, .image-about.load, .image-menu.load, .image-press.load, .image-contact.load
 {
   grid-column: images;
   margin: 6% auto;
@@ -330,18 +384,18 @@ form
   background-attachment: fixed;
 }
 
-.image-greet
+.image-greet, .image-greet.load
 {
   height: 55%;
 }
 
-.image-press
+.image-press, .image-press.load
 {
     background-size: 40% auto;
     background-position: 91% 20%;
 }
 
-.image-contact
+.image-contact, .image-contact.load
 {
   background-size: 40% auto;
   background-position: 90% 90%;
