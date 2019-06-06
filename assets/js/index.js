@@ -55,7 +55,7 @@ $(function()
 
 document.addEventListener("DOMContentLoaded", function() {
   var lazyBackgrounds = [].slice.call(document.querySelectorAll("#l-splash, .image-greet, .image-about, .image-menu, .image-press, .image-contact"));
-  
+
   if ("IntersectionObserver" in window) {
     let lazyBackgroundObserver = new IntersectionObserver(function(entries, observer) {
       entries.forEach(function(entry) {
@@ -70,16 +70,4 @@ document.addEventListener("DOMContentLoaded", function() {
       lazyBackgroundObserver.observe(lazyBackground);
     });
   }
-});
-
-$(document).ready(function() {
-    $(window).scroll( function(){
-        $('.image-about').each( function(i){
-            var bottom_of_object = $(this).offset().top + $(this).outerHeight();
-            var bottom_of_window = $(window).scrollTop() + $(window).height();
-            if( bottom_of_window > bottom_of_object ){
-                $(this).addClass('visible');
-            }
-        });
-    });
 });

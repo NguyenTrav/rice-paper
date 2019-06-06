@@ -95,12 +95,6 @@ body
   display: contents;
 }
 
-.images
-{
-   -webkit-transition: all 1s ease; transition: all 5s ease;
-
-}
-
 .title
 {
   font-size: calc(1.1em + 2.5vmin);
@@ -117,17 +111,6 @@ body
   height: 100vh;
   min-width: 100%;
 }
-
-/*#l-splash
-{
-  background: url("https://images.unsplash.com/photo-1526069631228-723c945bea6b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80");
-  height: 100%; 
-  width: 100%;
-  position: block;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-}*/
 
 #l-splash
 {
@@ -310,8 +293,6 @@ form
   margin-bottom: 10%;
 }
 
-
-
 #caption
 {
   font-size: calc(0.75em + 2.0vmin);
@@ -372,7 +353,8 @@ form
 }
 
 .image-greet, .image-about, .image-menu, .image-press, .image-contact, 
-.image-greet.load, .image-about.load, .image-menu.load, .image-press.load, .image-contact.load
+.image-greet.load, .image-about.load, .image-menu.load, .image-press.load, .image-contact.load,
+.image-about.visible
 {
   grid-column: images;
   margin: 6% auto;
