@@ -399,7 +399,7 @@ form
     display: block;
     z-index: 100;
     width: 200%;
-    height: 192.5%;
+    height: 200%;
     transform: translate(-50%,-50%);
     background: rgb(172,172,172, 0.75);
   }
@@ -409,7 +409,7 @@ form
     position: absolute;
     display: block;
     z-index: 999;
-      height: 40%;
+      height: 50%;
       left: 50%;
       top: 40%;
       transform: translate(-50%,-50%);  
