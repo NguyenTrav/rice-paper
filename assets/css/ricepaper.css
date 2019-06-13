@@ -109,7 +109,7 @@ body
 #l-splash
 {
   background: url("http://placekitten.com/g/100/100");
-  height: 110vh; 
+  height: 100vh; 
   width: 100%;
   position: block;
   background-size: cover;
@@ -120,7 +120,7 @@ body
 #l-splash.load
 {
   background: url("https://images.unsplash.com/photo-1526069631228-723c945bea6b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80");
-  height: 110vh; 
+  height: 100vh; 
   width: 100%;
   position: block;
   background-size: cover;
