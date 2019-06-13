@@ -395,12 +395,12 @@ form
   
   #overlay-filter
   {
+    width: 200%;
+    height: 185%;
     overflow: auto;
     position: absolute;
     display: block;
     z-index: 100;
-    width: 200%;
-    height: 200%;
     transform: translate(-50%,-50%);
     background: rgb(172,172,172, 0.75);
   }
