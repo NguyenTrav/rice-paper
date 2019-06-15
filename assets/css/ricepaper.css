@@ -424,25 +424,25 @@ form
 
   #overlay-address-1
   {
-    top: 50%;
+    top: 80%;
     width: 50%;
-    color: red;
+    color: green;
   }
   #overlay-address-2
   {
-    top: 86%;
+    top: 82%;
     width: 50%;
   }
 
   #overlay-hours
   {
-      top: 88%;
+      top: 84%;
       width: 50%;
   }
 
   #overlay-number
   {
-      top: 90%;
+      top: 86%;
       width: 50%;
   }
 
