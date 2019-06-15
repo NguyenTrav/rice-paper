@@ -393,7 +393,7 @@ form
     display: block;
     z-index: 100;
     width: 200%;
-    min-height: calc(200vh - 58px);
+    min-height: calc(200vh - 50px);
     transform: translate(-50%,-50%);
     background: rgb(172,172,172, 0.75);
   }
@@ -424,24 +424,24 @@ form
 
   #overlay-address-1
   {
-    top: 84%;
+    top: 83%;
     width: 50%;
   }
   #overlay-address-2
   {
-    top: 86%;
+    top: 85%;
     width: 50%;
   }
 
   #overlay-hours
   {
-      top: 88%;
+      top: 87%;
       width: 50%;
   }
 
   #overlay-number
   {
-      top: 90%;
+      top: 89%;
       width: 50%;
   }
 
