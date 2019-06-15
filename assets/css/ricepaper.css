@@ -393,7 +393,7 @@ form
     display: block;
     z-index: 100;
     width: 200%;
-    min-height: calc(200vh - 49px);
+    min-height: calc(200vh - 45px);
     transform: translate(-50%,-50%);
     background: rgb(172,172,172, 0.75);
   }
@@ -426,6 +426,7 @@ form
   {
     top: 83%;
     width: 50%;
+    color: red;
   }
   #overlay-address-2
   {
