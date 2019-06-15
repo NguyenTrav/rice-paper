@@ -424,8 +424,9 @@ form
 
   #overlay-address-1
   {
-    top: 84%;
+    top: 50%;
     width: 50%;
+    color: red;
   }
   #overlay-address-2
   {
