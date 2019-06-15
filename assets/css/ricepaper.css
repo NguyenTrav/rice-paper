@@ -393,7 +393,7 @@ form
     display: block;
     z-index: 100;
     width: 200%;
-    min-height: calc(200vh - 50px);
+    min-height: calc(200vh - 49px);
     transform: translate(-50%,-50%);
     background: rgb(172,172,172, 0.75);
   }
