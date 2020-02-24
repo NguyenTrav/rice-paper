@@ -1,173 +1,261 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <title>Rice Paper</title>
-      <link rel="icon" type="image/png" href="./assets/green_green.png"/>
-      <meta charset="utf-8">
-      <!-- tab icon -->
-      <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-      <meta name="description" content="Rice Paper - Taste of Vietnam">
-      <!-- Apple Touch Icon (at least 200x200px) -->
-      <link rel="apple-touch-icon" href="/custom-icon.png">
+  <head>
+    <title>Rice Paper</title>
+    <link rel="icon" type="image/png" href="./assets/green_green.png" />
+    <meta charset="utf-8" />
+    <!-- tab icon -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+    <meta name="description" content="Rice Paper - Taste of Vietnam" />
+    <!-- Apple Touch Icon (at least 200x200px) -->
+    <link rel="apple-touch-icon" href="/custom-icon.png" />
 
-      <!-- To run web application in full-screen -->
-      <meta name="apple-mobile-web-app-capable" content="yes">
-       
-      <!-- Status Bar Style (see Supported Meta Tags below for available values) -->
-      <!-- Has no effect unless you have the previous meta tag -->
-      <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <!-- To run web application in full-screen -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
 
-      <meta name="format-detection" content="telephone=no">
+    <!-- Status Bar Style (see Supported Meta Tags below for available values) -->
+    <!-- Has no effect unless you have the previous meta tag -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
 
-      <link rel="stylesheet" type="text/css" href="assets/css/ricepaper.css">
-      <link href="https://fonts.googleapis.com/css?family=Montserrat:300%7CWork+Sans:300&amp;subset=vietnamese" rel="stylesheet">
+    <meta name="format-detection" content="telephone=no" />
 
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="assets/css/ricepaper.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:300%7CWork+Sans:300&amp;subset=vietnamese"
+      rel="stylesheet"
+    />
 
-<!--       prevent zooming -->
-      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/> <!--320-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-      
-      <script src="lib/jquery-3.3.1.min.js"></script>
-      <script src="assets/js/index.js"></script>
-   </head>
-   <body>
+    <!--       prevent zooming -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"
+    />
+    <!--320-->
 
-      <div class = "nav">
-         <header>
-            <div class = "navLink" id="story-scroll">Our Story</div>
-            <div class = "navLink" id="menu-scroll">Menu</div>
-            <img src = "assets/blue_blue.png" id="logo" alt="Rice Paper logo">
-            <div class = "navLink" id="press-scroll">Press</div>
-            <div class = "navLink" id="contact-scroll">Contact</div>
-         </header>
+    <script src="lib/jquery-3.3.1.min.js"></script>
+    <script src="assets/js/index.js"></script>
+  </head>
+  <body>
+    <div class="nav">
+      <header>
+        <div class="navLink" id="story-scroll">Our Story</div>
+        <div class="navLink" id="menu-scroll">Menu</div>
+        <img src="assets/blue_blue.png" id="logo" alt="Rice Paper logo" />
+        <div class="navLink" id="press-scroll">Press</div>
+        <div class="navLink" id="contact-scroll">Contact</div>
+      </header>
+    </div>
+
+    <div class="container">
+      <div class="content">
+        <div id="splash-container">
+          <img
+            id="overlay-logo"
+            src="assets/blue_blue.png"
+            alt="Rice Paper logo"
+          />
+          <div id="overlay-filter">
+            <p id="overlay-address-1">6775 Wilson Blvd</p>
+            <p></p>
+            <p id="overlay-address-2">Falls Church, VA 22044</p>
+            <p id="overlay-hours">
+              Open daily 10 <span class="time">AM</span> - 10
+              <span class="time">PM</span>
+            </p>
+            <p id="overlay-number">703-538-3888</p>
+          </div>
+
+          <div id="l-splash"></div>
+        </div>
+
+        <div class="section-story">
+          <h2 class="title">Our Story</h2>
+          <p class="story-text"></p>
+          <p class="story-text">
+            In 1979 post-Vietnam war, my family left our country town of Rạch
+            Giá, Vietnam to start a new chapter in Virginia. My mother, Xuan
+            Tran was popular in our new community within the Eden Center for her
+            dynamic range of Vietnamese cuisine. My cousin, Phuong Ho shared a
+            deep passion for food at a young age. With my mother’s foundation of
+            family recipes and Chef Ho’s modern interpretations, their blend of
+            cooking brought everyone fond memories of cultural heritage.
+          </p>
+          <p class="story-text">
+            With their indisputable passion, we transformed my father’s jewelry
+            store into a restaurant. In 2012, we opened Rice Paper, and brought
+            together fresh and unique flavors. Nearly eight years later, our
+            family continues to welcome everyone, to a taste of Vietnam.
+          </p>
+          <p class="story-text">
+            - Owner, Mai Lam
+          </p>
+          <img src="assets/blob.png" class="blob" alt="watercolor blob" />
+        </div>
+
+        <div class="section-menu">
+          <h2 class="title">Menu</h2>
+          <h3 class="menu-fav">Customer favorites:</h3>
+          <p class="menu-name">Cơm Tấm Đặc Biệt</p>
+          <p class="menu-desc">
+            Rice platter with grilled pork chop, tofu stuffed with shrimp paste,
+            shrimp, fried egg, shredded pork, and shrimp rolls
+          </p>
+          <p class="menu-name">RICE PAPER Combo Platter</p>
+          <p class="menu-desc">
+            Grilled seafood, grilled pork, grilled ground beef wrapped in grape
+            leaves, served with thin vermicelli patties
+          </p>
+          <p class="menu-name">Bánh Xèo</p>
+          <p class="menu-desc">
+            Southern-style crepe stuffed with shrimp, pork, mung beans, onions,
+            and bean sprouts
+          </p>
+          <p class="menu-name">Phở Đặc Biệt</p>
+          <p class="menu-desc">
+            Rice noodle soup with eye round steak, well done brisket, well done
+            flank, tendon and meat balls
+          </p>
+          <p class="menu-name">Cơm Tay Cầm Đặt Biệt</p>
+          <p class="menu-desc">
+            Combination of seafood with sweet chinese sausage baked in a clay
+            pot with rice and vegetables
+          </p>
+          <div id="wrapper">
+            <form
+              action="assets/ricepapermenu.pdf"
+              rel="noopener noreferrer"
+              method="get"
+              target="_blank"
+            >
+              <button id="menu-button">See full menu</button>
+            </form>
+          </div>
+          <img src="assets/blob.png" class="blob" alt="watercolor blob" />
+        </div>
+
+        <div class="section-press">
+          <h2 class="title">Latest Press</h2>
+          <div class="press-title">
+            <a
+              class="press-link"
+              href="https://youtu.be/EWr0mUkTxzk?t=304"
+              rel="noopener noreferrer"
+              target="_blank"
+              >Kojo Visits Eden Center</a
+            >
+          </div>
+          <div class="press-publisher">
+            <a
+              class="press-link"
+              href="https://youtu.be/EWr0mUkTxzk?t=304"
+              rel="noopener noreferrer"
+              target="_blank"
+              >The Kojo Nnamdi Show
+            </a>
+          </div>
+          <div class="press-title">
+            <a
+              class="press-link"
+              href="https://dcist.com/story/19/02/26/social-media-bubble-tea-and-edm-how-eden-center-is-wooing-a-new-generation/"
+              rel="noopener noreferrer"
+              target="_blank"
+              >How Eden Center Is Wooing A New Generation</a
+            >
+          </div>
+          <div class="press-publisher">
+            <a
+              class="press-link"
+              href="https://dcist.com/story/19/02/26/social-media-bubble-tea-and-edm-how-eden-center-is-wooing-a-new-generation/"
+              rel="noopener noreferrer"
+              target="_blank"
+              >DCist</a
+            >
+          </div>
+          <div class="press-title">
+            <a
+              class="press-link"
+              href="https://www.washingtonian.com/2019/02/15/100-very-best-restaurants-68-rice-paper-2/"
+              rel="noopener noreferrer"
+              target="_blank"
+              >100 Very Best Restaurant 2019</a
+            >
+          </div>
+          <div class="press-publisher">
+            <a
+              class="press-link"
+              href="https://www.washingtonian.com/2019/02/15/100-very-best-restaurants-68-rice-paper-2/"
+              rel="noopener noreferrer"
+              target="_blank"
+              >Washingtonian</a
+            >
+          </div>
+          <img src="assets/blob.png" class="blob" alt="watercolor blob" />
+        </div>
+
+        <div class="section-contact">
+          <h2 class="title">Contact</h2>
+          <p class="contact-address">
+            6775 Wilson Blvd, Falls Church, VA 22044
+          </p>
+          <p>
+            <a
+              class="contact-maps"
+              href="https://goo.gl/maps/7odSAeod2NJ2"
+              rel="noopener noreferrer"
+              target="_blank"
+              >View Google Maps</a
+            >
+          </p>
+          <p class="contact-hours">
+            Open daily 10 <span class="time">AM</span> - 10
+            <span class="time">PM</span>
+          </p>
+          <p class="contact-number" href="tel:+7035383888">703-538-3888</p>
+          <p>
+            <a
+              id="contact-social-yelp"
+              href="https://www.yelp.com/biz/rice-paper-falls-church"
+              rel="noopener noreferrer"
+              target="_blank"
+              >yelp</a
+            >
+          </p>
+          <p>
+            <a
+              id="contact-social-fb"
+              href="https://www.facebook.com/Rice-Paper-Taste-of-Vietnam-224296077593811/"
+              rel="noopener noreferrer"
+              target="_blank"
+              >facebook</a
+            >
+          </p>
+          <p>
+            <a
+              id="contact-social-insta"
+              href="https://www.instagram.com/explore/locations/240655626/rice-paper-taste-of-vietnam/"
+              rel="noopener noreferrer"
+              target="_blank"
+              >instagram</a
+            >
+          </p>
+        </div>
       </div>
 
-      <div class="container">
-         <div class="content">
-
-            <div id= "splash-container">
-               <img id="overlay-logo" src="assets/blue_blue.png" alt="Rice Paper logo">
-                  <div id="overlay-filter">
-                  <p id="overlay-address-1">6775 Wilson Blvd<p>
-                  <p id="overlay-address-2">Falls Church, VA 22044</p>
-                  <p id="overlay-hours">Open daily 10 <span class="time">AM</span> - 10 <span class="time">PM</span></p>
-                  <p id="overlay-number">703-538-3888</p>
-            </div>
-
-            <div id = "l-splash"></div>
-
-         </div>
-
-            <div class="section-story">
-               <h2 class="title">Our Story</h2>
-                  <p class = "story-text">
-               </p>
-               <p class = "story-text">
-                  In 1979 post-Vietnam war, my family left our country town of Rạch Giá, Vietnam to start a new chapter in Virginia. My mother, Xuan Tran was popular in our new community within the Eden Center for her dynamic range of Vietnamese cuisine. My cousin, Phuong Ho shared a deep passion for food at a young age. With my mother’s foundation of family recipes and Chef Ho’s modern interpretations, their blend of cooking brought everyone fond memories of cultural heritage. 
-               </p>
-               <p class = "story-text">
-                  With their indisputable passion, we transformed my father’s jewelry store into a restaurant. In 2012, we opened Rice Paper, and brought together fresh and unique flavors. Nearly eight years later, our family continues to welcome everyone, to a taste of Vietnam.
-               </p>
-               <p class = "story-text">
-                  - Owner, Mai Lam
-               </p>
-               <img src = "assets/blob.png" class="blob" alt="watercolor blob">
-            </div>
-
-
-            <div class="section-menu">
-               <h2 class="title">Menu</h2>
-               <h3 class = "menu-fav"> Customer favorites:</h3>
-               <p class="menu-name">Cơm Tấm Đặc Biệt</p>
-               <p class="menu-desc">
-                  Rice platter with grilled pork chop, tofu stuffed
-                  with shrimp paste, shrimp, fried egg, shredded pork, and shrimp rolls
-               </p>
-               <p class="menu-name">RICE PAPER Combo Platter </p>
-               <p class="menu-desc">
-                  Grilled seafood, grilled pork, grilled ground beef wrapped in grape leaves, served with thin vermicelli patties
-               </p>
-               <p class="menu-name">Bánh Xèo</p>
-               <p class="menu-desc">
-                  Southern-style crepe stuffed with shrimp, pork, mung beans, onions, and bean sprouts
-               </p>
-               <p class="menu-name">Phở Đặc Biệt</p>
-               <p class="menu-desc">
-                  Rice noodle soup with eye round steak, well done brisket, well done flank, tendon and meat balls
-               </p>
-               <p class="menu-name">Cơm Tay Cầm Đặt Biệt</p>
-               <p class="menu-desc">
-                  Combination of seafood with sweet chinese sausage baked in a clay pot with rice and vegetables
-               </p>
-               <div id="wrapper">
-                  <form action="assets/ricepapermenu.pdf" rel="noopener noreferrer" method="get" target="_blank">
-                     <button id="menu-button">See full menu</button>
-                  </form>
-               </div>
-               <img src = "assets/blob.png" class="blob" alt="watercolor blob">
-            </div>
-
-
-            <div class="section-press">
-               <h2 class = "title">Latest Press</h2>
-               <div class="press-title">
-                  <a class="press-link" href="https://youtu.be/EWr0mUkTxzk?t=304" rel="noopener noreferrer" target="_blank">Kojo Visits Eden Center</a>
-               </div>
-               <div class="press-publisher">
-                  <a class="press-link" href="https://youtu.be/EWr0mUkTxzk?t=304" rel="noopener noreferrer" target="_blank">The Kojo Nnamdi Show
-                  </a>
-               </div>
-               <div class="press-title">
-                  <a class="press-link" href="https://dcist.com/story/19/02/26/social-media-bubble-tea-and-edm-how-eden-center-is-wooing-a-new-generation/" rel="noopener noreferrer" target="_blank">How Eden Center Is Wooing A New Generation</a>
-               </div>
-               <div class="press-publisher">
-                  <a class="press-link" href="https://dcist.com/story/19/02/26/social-media-bubble-tea-and-edm-how-eden-center-is-wooing-a-new-generation/" rel="noopener noreferrer" target="_blank">DCist</a>
-               </div>
-               <div class="press-title">
-                  <a class="press-link" href="https://www.washingtonian.com/2019/02/15/100-very-best-restaurants-68-rice-paper-2/" rel="noopener noreferrer" target="_blank">100 Very Best Restaurant 2019</a>
-               </div>
-               <div class="press-publisher">
-                  <a class="press-link"  href="https://www.washingtonian.com/2019/02/15/100-very-best-restaurants-68-rice-paper-2/" rel="noopener noreferrer" target="_blank">Washingtonian</a>
-               </div>
-               <img src = "assets/blob.png" class="blob" alt="watercolor blob">
-            </div>
-
-
-            <div class="section-contact">
-               <h2 class="title">Contact</h2>
-               <p class="contact-address">6775 Wilson Blvd, Falls Church, VA 22044
-               </p>
-               <p>
-                  <a class="contact-maps" href="https://goo.gl/maps/7odSAeod2NJ2" rel="noopener noreferrer" target="_blank">View Google Maps</a>
-               </p>
-               <p class="contact-hours">Open daily 10 <span class="time">AM</span> - 10 <span class="time">PM</span></p>
-               <p class="contact-number" href="tel:+7035383888">703-538-3888</p>
-               <p>
-                  <a id="contact-social-yelp" href="https://www.yelp.com/biz/rice-paper-falls-church" rel="noopener noreferrer" target="_blank">yelp</a>
-               </p>
-               <p>
-                  <a id="contact-social-fb" href="https://www.facebook.com/Rice-Paper-Taste-of-Vietnam-224296077593811/" rel="noopener noreferrer" target="_blank">facebook</a>
-               </p>
-               <p>
-                  <a id="contact-social-insta" href="https://www.instagram.com/explore/locations/240655626/rice-paper-taste-of-vietnam/" rel="noopener noreferrer" target="_blank">instagram</a>   
-               </p>
-
-            </div>
-         </div>
-
-         <div class="images"> 
-
-            <div class="greet-container">
-               <div class="image-greet"></div>
-               <h2 id="caption">Rice Paper</h2>
-            </div>  
-            <div class="image-about"></div>
-            <div class="image-menu"></div>
-            <div class="image-press"></div>
-            <div class="image-contact"></div>
-         </div>
+      <div class="images">
+        <div class="greet-container">
+          <div class="image-greet"></div>
+          <h2 id="caption">Rice Paper</h2>
+        </div>
+        <div class="image-about"></div>
+        <div class="image-menu"></div>
+        <div class="image-press"></div>
+        <div class="image-contact"></div>
       </div>
-
-   </body>
+    </div>
+  </body>
 </html>

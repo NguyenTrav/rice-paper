@@ -1,63 +1,58 @@
-header
-{
-  display:flex;
+header {
+  display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: row;
   background: #fffaf0;
   position: sticky;
-  width:100%;
-  top:0;
-  font-family: 'Montserrat', sans-serif;
+  width: 100%;
+  top: 0;
+  font-family: "Montserrat", sans-serif;
   font-weight: 300;
   font-size: calc(0.5em + 1vmin);
 }
 
 header > div:nth-child(2),
-header > div:nth-child(4){
-  flex:1.25;
+header > div:nth-child(4) {
+  flex: 1.25;
 }
 
 header > div:first-child,
-header > div:last-child{
-  flex:8;
+header > div:last-child {
+  flex: 8;
 }
 
 header > div:first-child {
- text-align:right;
+  text-align: right;
 }
 
-
-header > div:nth-child(2), div:nth-child(4)
-{
+header > div:nth-child(2),
+div:nth-child(4) {
   text-align: center;
 }
 
-header > div:last-child{
- text-align:left;
+header > div:last-child {
+  text-align: left;
 }
 
-body 
-{
+body {
   max-width: 100%;
   overflow-x: hidden;
   padding: 0px;
   margin: 0px;
   color: #fffaf0;
-  font-family: 'Work Sans', sans-serif;
+  font-family: "Work Sans", sans-serif;
   font-weight: 300;
 }
 
-.nav
-{
+.nav {
   position: -webkit-sticky;
   position: sticky;
   top: 0%;
   color: #80985d;
 }
 
-.navLink
-{
+.navLink {
   padding: 0 10px;
   font-weight: 300;
   text-transform: uppercase;
@@ -65,17 +60,15 @@ body
   text-align: center;
 }
 
-#logo
-{
-  margin-top:.22%;
-  margin-bottom: .22%;
+#logo {
+  margin-top: 0.22%;
+  margin-bottom: 0.22%;
   width: 4%;
   height: 4%;
   cursor: pointer;
 }
 
-.blob
-{
+.blob {
   width: 5%;
   height: 5%;
   display: block;
@@ -83,35 +76,29 @@ body
   margin-top: 7%;
 }
 
-.container 
-{
+.container {
   display: grid;
-  grid-template-columns: [content] minmax(0,1fr) [images] minmax(0,1fr);
+  grid-template-columns: [content] minmax(0, 1fr) [images] minmax(0, 1fr);
   grid-auto-flow: dense;
 }
 
-.content, .images 
-{
+.content,
+.images {
   display: contents;
 }
 
-.title
-{
+.title {
   font-size: calc(1.1em + 2.5vmin);
   padding-bottom: 2.5%;
   font-weight: 300;
   text-align: left;
-  text-transform: uppercase; 
-  font-family: 'Montserrat', sans-serif;
-
-
-
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
 }
 
-#l-splash
-{
+#l-splash {
   background: url("http://placekitten.com/g/100/100");
-  height: 96.25vh; 
+  height: 96.25vh;
   width: 100%;
   position: block;
   background-size: cover;
@@ -119,10 +106,9 @@ body
   background-position: bottom center;
 }
 
-#l-splash.load
-{
+#l-splash.load {
   background: url("https://images.unsplash.com/photo-1526069631228-723c945bea6b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80");
-  height: 96.25vh; 
+  height: 96.25vh;
   width: 100%;
   position: block;
   background-size: cover;
@@ -130,72 +116,67 @@ body
   background-position: bottom center;
 }
 
-#overlay-filter
-{
+#overlay-filter {
   display: none;
 }
 
-#overlay-logo, #overlay-address-1,#overlay-address-2 #overlay-hours, #overlay-number
-{
-  display: none; 
+#overlay-logo,
+#overlay-address-1,
+#overlay-address-2 #overlay-hours,
+#overlay-number {
+  display: none;
 }
 
-.section-story
-{ 
+.section-story {
   padding: 0 4vw;
 }
 
-.story-text
-{
+.story-text {
   font-size: calc(0.68em + 1.2vmin);
   line-height: 1.6;
 }
-    
-.section-story, .section-menu, .section-press, .section-contact
-{
+
+.section-story,
+.section-menu,
+.section-press,
+.section-contact {
   grid-column: content;
   background: #2f6e84;
   padding: 0 4vw;
 }
 
-.menu-fav
-{
+.menu-fav {
   font-size: calc(0.75em + 1.8vmin);
   font-weight: 300;
 }
 
-.menu-name
-{
+.menu-name {
   font-size: calc(0.75em + 1.6vmin);
   margin-bottom: -12px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
-.menu-desc
-{
+.menu-desc {
   font-size: calc(0.62em + 1.25vmin);
   line-height: 1.6;
   margin-bottom: 4.5vh;
 }
 
-#wrapper
-{
+#wrapper {
   display: flex;
   justify-content: center;
   margin-top: 8vh;
   margin-bottom: 4vh;
 }
 
-form
-{
+form {
   display: inline;
 }
 
-#menu-button
-{
+#menu-button {
   height: 80px;
   width: 350px;
-  font-size: calc(0.50em + 1.2vmin);
+  font-size: calc(0.5em + 1.2vmin);
   font-weight: 300;
   letter-spacing: 2px;
   line-height: 80px;
@@ -206,18 +187,16 @@ form
   cursor: pointer;
 }
 
-.press-title
-{
+.press-title {
   font-size: calc(0.75em + 1.8vmin);
   text-align: center;
   line-height: 1.6;
-  margin-bottom: .5vh;
+  margin-bottom: 0.5vh;
   font-weight: 300;
   letter-spacing: 1.1px;
 }
 
-.press-publisher
-{
+.press-publisher {
   font-size: calc(0.75em + 1.2vmin);
   text-align: center;
   line-height: 1.6;
@@ -225,130 +204,119 @@ form
   font-weight: 300;
 }
 
-.press-link
-{
+.press-link {
   text-decoration: none;
-  color:#b2c29a;
-
+  color: #b2c29a;
 }
 
-.contact-address
-{
-  font-size: calc(0.70em + 1.5vmin);
+.contact-address {
+  font-size: calc(0.7em + 1.5vmin);
   margin-bottom: 0;
   text-align: left;
 }
 
-.contact-maps
-{
+.contact-maps {
   text-decoration: none;
-  color:#b2c29a;
-  font-size: calc(0.70em + 1.2vmin);
+  color: #b2c29a;
+  font-size: calc(0.7em + 1.2vmin);
   display: block;
   margin-top: -2%;
   padding-bottom: 1.5%;
-    text-align: left;
+  text-align: left;
 }
 
-.contact-hours
-{
-  font-size: calc(0.70em + 1.5vmin);
+.contact-hours {
+  font-size: calc(0.7em + 1.5vmin);
   padding-bottom: 1.5%;
-    text-align: left;
+  text-align: left;
 }
 
-.time
-{
+.time {
   margin-left: -5px;
-  font-size: calc(0.50em + .50vmin);
-
+  font-size: calc(0.5em + 0.5vmin);
 }
 
-.contact-number
-{
-  font-size: calc(0.70em + 1.5vmin);
+.contact-number {
+  font-size: calc(0.7em + 1.5vmin);
   padding-bottom: 1.5%;
-    text-align: left;
+  text-align: left;
 }
 
-#contact-social-yelp, #contact-social-fb, #contact-social-insta
-{
+#contact-social-yelp,
+#contact-social-fb,
+#contact-social-insta {
   display: block;
   text-decoration: none;
-  color:#b2c29a;
-  font-size: calc(0.70em + 1.2vmin);
+  color: #b2c29a;
+  font-size: calc(0.7em + 1.2vmin);
   margin-top: -2%;
   text-align: left;
 }
 
-#contact-social-insta
-{
+#contact-social-insta {
   margin-bottom: 10%;
 }
 
-#caption
-{
-  font-size: calc(0.75em + 2.0vmin);
+#caption {
+  font-size: calc(0.75em + 2vmin);
   font-weight: 300;
   text-transform: uppercase;
   color: #80985d;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   text-align: center;
 }
 
-.image-greet
-{
+.image-greet {
   background: url("https://placekitten.com/g/100/100");
 }
 
 .image-greet.load {
-    background: url("https://images.unsplash.com/photo-1511910849309-0dffb8785146?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60");
+  background: url("https://images.unsplash.com/photo-1511910849309-0dffb8785146?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60");
 }
 
-.image-about 
-{
-    background: url("https://placekitten.com/g/100/100");
-}
-
-.image-about.load
-{
-    background: url("https://images.unsplash.com/photo-1519288997835-7ae47de1b588?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80");
-}
-
-.image-menu
-{
+.image-about {
   background: url("https://placekitten.com/g/100/100");
 }
 
-.image-menu.load
-{
-    background: url("https://images.unsplash.com/photo-1527498580783-4656d37cba65?ixlib=rb-1.2.1&auto=format&fit=crop&w=976&q=80");
+.image-about.load {
+  background: url("https://images.unsplash.com/photo-1519288997835-7ae47de1b588?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80");
 }
 
-.image-press
-{
+.image-menu {
   background: url("https://placekitten.com/g/100/100");
 }
 
-.image-press.load
-{
-    background: url("https://oldtowncrier.files.wordpress.com/2014/10/chef-phuong-ho-14-8-7-27.jpeg");
+.image-menu.load {
+  background: url("https://images.unsplash.com/photo-1527498580783-4656d37cba65?ixlib=rb-1.2.1&auto=format&fit=crop&w=976&q=80");
 }
 
-.image-contact
-{
+.image-press {
   background: url("https://placekitten.com/g/100/100");
 }
 
-.image-contact.load
-{
-    background: url("https://images.unsplash.com/photo-1483648969698-5e7dcaa3444f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60");
+.image-press.load {
+  background: url("https://oldtowncrier.files.wordpress.com/2014/10/chef-phuong-ho-14-8-7-27.jpeg");
 }
 
-.image-greet, .image-about, .image-menu, .image-press, .image-contact, 
-.image-greet.load, .image-about.load, .image-menu.load, .image-press.load, .image-contact.load,
-.image-about.visible
-{
+.image-contact {
+  background: url("https://placekitten.com/g/100/100");
+}
+
+.image-contact.load {
+  background: url("https://images.unsplash.com/photo-1483648969698-5e7dcaa3444f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60");
+}
+
+.image-greet,
+.image-about,
+.image-menu,
+.image-press,
+.image-contact,
+.image-greet.load,
+.image-about.load,
+.image-menu.load,
+.image-press.load,
+.image-contact.load,
+.image-about.visible {
   grid-column: images;
   margin: 6% auto;
   width: 75%;
@@ -359,86 +327,87 @@ form
   background-attachment: fixed;
 }
 
-.image-greet, .image-greet.load
-{
+.image-greet,
+.image-greet.load {
   height: 55%;
 }
 
-.image-press, .image-press.load
-{
-    background-size: 40% auto;
-    background-position: 91% 20%;
+.image-press,
+.image-press.load {
+  background-size: 40% auto;
+  background-position: 91% 20%;
 }
 
-.image-contact, .image-contact.load
-{
+.image-contact,
+.image-contact.load {
   background-size: 40% auto;
   background-position: 90% 90%;
 }
 
 /* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
-@media only screen and (max-device-width: 1366px)
-{
-  .image-greet, .image-about, .image-menu, .image-press, .image-contact, 
-  .image-greet.load, .image-about.load, .image-menu.load, .image-press.load, .image-contact.load,
-  .image-about.visible
-  {
-      margin: 12% auto;
-      width: 100%;
-      background-size: 75% auto;
-      background-position: center center;
-      background-attachment: scroll;
+@media only screen and (max-device-width: 1366px) {
+  .image-greet,
+  .image-about,
+  .image-menu,
+  .image-press,
+  .image-contact,
+  .image-greet.load,
+  .image-about.load,
+  .image-menu.load,
+  .image-press.load,
+  .image-contact.load,
+  .image-about.visible {
+    margin: 12% auto;
+    width: 100%;
+    background-size: 75% auto;
+    background-position: center center;
+    background-attachment: scroll;
   }
-
 }
 
-@media screen and (max-width: 767.98px) and (orientation:portrait)
-{ 
-
-  html, body 
-  {
+@media screen and (max-width: 767.98px) and (orientation: portrait) {
+  html,
+  body {
     max-width: 100%;
     overflow-x: hidden;
     overflow-y: scroll;
   }
-  .container
-  {
+  .container {
     display: grid;
     grid-template-columns: [content] 100%;
-  } 
+  }
 
-  header, .images
-  {
+  header,
+  .images {
     display: none;
   }
-  
-  #overlay-filter
-  {
+
+  #overlay-filter {
     position: absolute;
     display: block;
     z-index: 100;
     width: 200%;
     min-height: calc(200vh - 46px);
-    transform: translate(-50%,-50%);
-    background: rgb(172,172,172, 0.75);
+    transform: translate(-50%, -50%);
+    background: rgb(172, 172, 172, 0.75);
   }
 
-  #overlay-logo
-  { 
+  #overlay-logo {
     position: absolute;
     display: block;
     z-index: 999;
-      height: 45%;
-      left: 50%;
-      top: 40%;
-      transform: translate(-50%,-50%);  
-      
+    height: 45%;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
   }
 
-  #overlay-address-1,#overlay-address-2, #overlay-hours, #overlay-number
-  {
+  #overlay-address-1,
+  #overlay-address-2,
+  #overlay-hours,
+  #overlay-number {
     display: block;
-    text-align: center; 
+    text-align: center;
     position: absolute;
     left: 75%;
     transform: translate(-50%, -50%);
@@ -447,27 +416,22 @@ form
     font-weight: bold;
   }
 
-  #overlay-address-1
-  {
+  #overlay-address-1 {
     top: 83%;
     width: 50%;
   }
-  #overlay-address-2
-  {
+  #overlay-address-2 {
     top: 85%;
     width: 50%;
   }
 
-  #overlay-hours
-  {
-      top: 87%;
-      width: 50%;
+  #overlay-hours {
+    top: 87%;
+    width: 50%;
   }
 
-  #overlay-number
-  {
-      top: 89%;
-      width: 50%;
+  #overlay-number {
+    top: 89%;
+    width: 50%;
   }
-
 }
