@@ -1,6 +1,6 @@
 # Rice Paper Website
 
-Freelance project for a local Vietnamese restaurant. This project holds a special place in my heart. I have a cultural connection to this shopping center because of the sentimental moments from my childhood. Working with the manager, Mai and the interior designer, Hoa was an honor and we are pleased with the final outcome. 
+Freelance project for a local Vietnamese restaurant. This project holds a special place in my heart because of the sentimental moments from my childhood. Working with the manager, Mai and the interior designer, Hoa was an honor and we are pleased with the outcome. 
 
 [Website found here](https://nguyentrav.github.io/rice-paper/)
 
