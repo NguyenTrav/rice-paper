@@ -1,27 +1,24 @@
 # Rice Paper Website
 
+Freelance project for a local Vietnamese restaurant.
 
-$project will solve your problem of where to start with documentation,
-by providing a basic explanation of how to do it easily.
-
-Look how easy it is to use:
-
-    import project
-    # Get your stuff done
-    project.do_stuff()
+[Website link](nguyentrav.github.io/rice-paper)
 
 Features
 --------
 
-- Be awesome
-- Make things faster
+- Parallax scrolling
+- Lazy loading images
+- Responsive on desktop and mobile devices
+- Google PageSpeed score of 100/100
+
 
 Installation
 ------------
 
-Install $project by running:
+Install rice-paper by running:
 
-    install project
+    git clone git@github.com:NguyenTrav/rice-paper.git
 
 Contribute
 ----------
@@ -32,10 +29,9 @@ Contribute
 Support
 -------
 
-If you are having issues, please let us know.
-We have a mailing list located at: project@google-groups.com
+If you have any questions, suggestions, recommendations, please feel free to shoot me an email at NguyenTrav@gmail.com
 
 License
 -------
 
-The project is licensed under the BSD license.
+The project is currently not licensed. 
