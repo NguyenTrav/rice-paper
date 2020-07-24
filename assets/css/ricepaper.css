@@ -98,7 +98,7 @@ body {
 
 #l-splash {
   background: url("https://placekitten.com/g/100/100");
-  height: 96.25vh;
+  height: 91.75vh;
   width: 100%;
   position: block;
   background-size: cover;
@@ -107,8 +107,8 @@ body {
 }
 
 #l-splash.load {
-  background: url("https://images.unsplash.com/photo-1526069631228-723c945bea6b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80");
-  height: 96.25vh;
+  background: url(../graphics/splash.jpeg);
+  height: 91.75vh;
   width: 100%;
   position: block;
   background-size: cover;
@@ -303,7 +303,7 @@ form {
 }
 
 .image-contact.load {
-  background: url("../food_items/sunlight_table.jpg");
+  background: url("../graphics/sunlight_table.jpg");
 }
 
 .image-greet,
@@ -387,7 +387,7 @@ form {
     display: block;
     z-index: 100;
     width: 200%;
-    min-height: calc(200vh - 46px);
+    min-height: calc(189vh - 46px);
     transform: translate(-50%, -50%);
     background: rgb(172, 172, 172, 0.75);
   }
@@ -398,7 +398,7 @@ form {
     z-index: 999;
     height: 45%;
     left: 50%;
-    top: 40%;
+    top: 37%;
     transform: translate(-50%, -50%);
   }
 
