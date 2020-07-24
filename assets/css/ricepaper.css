@@ -387,7 +387,7 @@ form {
     display: block;
     z-index: 100;
     width: 200%;
-    min-height: calc(189vh - 46px);
+    min-height: calc(190vh - 46px);
     transform: translate(-50%, -50%);
     background: rgb(172, 172, 172, 0.75);
   }
@@ -398,7 +398,7 @@ form {
     z-index: 999;
     height: 45%;
     left: 50%;
-    top: 37%;
+    top: 38%;
     transform: translate(-50%, -50%);
   }
 
