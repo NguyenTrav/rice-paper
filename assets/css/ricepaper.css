@@ -49,7 +49,7 @@ body {
   position: -webkit-sticky;
   position: sticky;
   top: 0%;
-  color: #80985d;
+  color: #687a49;
 }
 
 .navLink {
@@ -68,12 +68,21 @@ body {
   cursor: pointer;
 }
 
-.blob {
+/* .blob {
   width: 5%;
   height: 5%;
   display: block;
   margin: 0 auto;
   margin-top: 7%;
+} */
+
+.blob {
+  width: 8%;
+  height: 8%;
+  display: block;
+  margin: 0 auto;
+  margin-top: 7%;
+  transform: rotate(180deg);
 }
 
 #blob_test {
@@ -115,7 +124,7 @@ body {
 }
 
 #l-splash.load {
-  background: url(../graphics/splash.jpeg);
+  background: url(../graphics/restaurant_hallway.jpg);
   height: 91.75vh;
   width: 100%;
   position: block;
@@ -215,7 +224,7 @@ form {
 
 .press-link {
   text-decoration: none;
-  color: #b2c29a;
+  color: #b7c6a0;
 }
 
 .contact-address {
@@ -226,7 +235,7 @@ form {
 
 .contact-maps {
   text-decoration: none;
-  color: #b2c29a;
+  color: #b7c6a0;
   font-size: calc(0.7em + 1.2vmin);
   display: block;
   margin-top: -2%;
@@ -256,7 +265,7 @@ form {
 #contact-social-insta {
   display: block;
   text-decoration: none;
-  color: #b2c29a;
+  color: #b7c6a0;
   font-size: calc(0.7em + 1.2vmin);
   margin-top: -2%;
   text-align: left;
@@ -270,7 +279,7 @@ form {
   font-size: calc(0.75em + 2vmin);
   font-weight: 300;
   text-transform: uppercase;
-  color: #80985d;
+  color: #6a7d4b;
   font-family: "Montserrat", sans-serif;
   text-align: center;
 }
@@ -280,7 +289,7 @@ form {
 }
 
 .image-greet.load {
-  background: url("https://images.unsplash.com/photo-1511910849309-0dffb8785146?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60");
+  background: url(../graphics/restaurant_singlerose.jpg);
 }
 
 .image-about {
@@ -312,7 +321,7 @@ form {
 }
 
 .image-contact.load {
-  background: url("../graphics/sunlight_table.jpg");
+  background: url("../graphics/restaurant_mirrors.JPG");
 }
 
 .image-greet,
@@ -339,6 +348,8 @@ form {
 .image-greet,
 .image-greet.load {
   height: 55%;
+  background-size: 40% auto;
+  background-position: 90% 90%;
 }
 
 .image-press,
@@ -398,7 +409,7 @@ form {
     width: 200%;
     min-height: calc(190vh - 46px);
     transform: translate(-50%, -50%);
-    background: rgb(172, 172, 172, 0.75);
+    background: rgb(172, 172, 172, 0.85);
   }
 
   #overlay-logo {
