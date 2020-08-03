@@ -63,8 +63,8 @@ body {
 #logo {
   margin-top: 0.22%;
   margin-bottom: 0.22%;
-  width: 4%;
-  height: 4%;
+  width: 3.95%;
+  height: 3.95%;
   cursor: pointer;
 }
 
@@ -434,6 +434,7 @@ form {
     font-size: calc(0.75em + 1.8vmin);
     color: #fffaf0;
     font-weight: bold;
+    padding-top: 7.5vh;
   }
 
   #overlay-address-1 {
