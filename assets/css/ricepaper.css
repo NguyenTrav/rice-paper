@@ -431,9 +431,9 @@ form {
     position: absolute;
     left: 75%;
     transform: translate(-50%, -50%);
-    font-size: calc(0.75em + 2vmin);
+    font-size: calc(0.75em + 2.2vmin);
     color: #2f6e84;
-    font-weight: bold;
+    font-weight: 800;
     margin-top: 3vh;
   }
 
