@@ -434,8 +434,8 @@ form {
     font-size: calc(0.75em + 1.8vmin);
     color: #fffaf0;
     font-weight: bold;
-    margin-top: 3.5vh;
-    color: orange;
+    margin-top: 3vh;
+    color: red;
   }
 
   #overlay-address-1 {
