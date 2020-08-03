@@ -432,10 +432,9 @@ form {
     left: 75%;
     transform: translate(-50%, -50%);
     font-size: calc(0.75em + 1.8vmin);
-    color: #fffaf0;
+    color: #2f6e84;
     font-weight: bold;
     margin-top: 3vh;
-    color: red;
   }
 
   #overlay-address-1 {
