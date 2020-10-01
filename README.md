@@ -1,6 +1,6 @@
 # Rice Paper Website
 
-Freelance project for a local Vietnamese restaurant. This project holds a special place in my heart because of the sentimental moments from my childhood. Working with the manager, Mai and the interior designer, Hoa was an honor and we are pleased with the outcome. 
+Freelance project for a local Vietnamese restaurant. This project holds a special place in my heart because of all the sentimental moments from my childhood. Working with the manager, Mai and the interior designer, Hoa was an honor and we are pleased with the outcome. 
 
 [Website found here](https://nguyentrav.github.io/rice-paper/)
 
@@ -23,4 +23,4 @@ Install rice-paper by running:
 Support
 -------
 
-If you have any questions, suggestions, recommendations, please feel free to shoot me an email at NguyenTrav@gmail.com
+If you have any questions, suggestions or recommendations please feel free to shoot me an email at NguyenTrav@gmail.com
