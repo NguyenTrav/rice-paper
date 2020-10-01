@@ -160,7 +160,7 @@ body {
   position: block;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: bottom center;
+  background-position: 47.25% center;
 }
 
 #l-splash.load {
@@ -170,7 +170,7 @@ body {
   position: block;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: bottom center;
+  background-position: 47.25% center;
 }
 
 #overlay-filter {
