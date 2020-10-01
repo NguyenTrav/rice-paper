@@ -154,7 +154,7 @@ body {
 }
 
 #l-splash {
-  background: url("https://placekitten.com/g/100/100");
+  background: url(../graphics/lazy_restaurant_hallway.jpg);
   height: 91.75vh;
   width: 100%;
   position: block;
@@ -325,7 +325,7 @@ form {
 }
 
 .image-greet {
-  background: url("https://placekitten.com/g/100/100");
+  background: url("../graphics/lazy_restaurant_closetab.jpg");
 }
 
 .image-greet.load {
@@ -333,15 +333,15 @@ form {
 }
 
 .image-about {
-  background: url("https://placekitten.com/g/100/100");
+  background: url("../graphics/lazy_phuong.jpg");
 }
 
 .image-about.load {
-  background: url("https://oldtowncrier.files.wordpress.com/2014/10/chef-phuong-ho-14-8-7-27.jpeg");
+  background: url("../graphics/phuong.jpeg");
 }
 
 .image-menu {
-  background: url("https://placekitten.com/g/100/100");
+  background: url("../graphics/lazy_closeup_thit_nuong.jpg");
 }
 
 .image-menu.load {
@@ -349,7 +349,7 @@ form {
 }
 
 .image-press {
-  background: url("https://placekitten.com/g/100/100");
+  background: url("../graphics/lazy_closeup_banhxeo.jpg");
 }
 
 .image-press.load {
@@ -357,7 +357,7 @@ form {
 }
 
 .image-contact {
-  background: url("https://placekitten.com/g/100/100");
+  background: url("../graphics/lazy_closeup_bo_la_muong.jpg");
 }
 
 .image-contact.load {
