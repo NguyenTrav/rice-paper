@@ -329,7 +329,7 @@ form {
 }
 
 .image-greet.load {
-  background: url(../graphics/restaurant_singlerose.jpg);
+  background: url(../graphics/restaurant_closetab.jpg);
 }
 
 .image-about {
@@ -337,7 +337,7 @@ form {
 }
 
 .image-about.load {
-  background: url("https://images.unsplash.com/photo-1519288997835-7ae47de1b588?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80");
+  background: url("https://oldtowncrier.files.wordpress.com/2014/10/chef-phuong-ho-14-8-7-27.jpeg");
 }
 
 .image-menu {
@@ -345,7 +345,7 @@ form {
 }
 
 .image-menu.load {
-  background: url("../graphics/food.jpg");
+  background: url("../graphics/closeup_thit_nuong.jpg");
 }
 
 .image-press {
@@ -353,7 +353,7 @@ form {
 }
 
 .image-press.load {
-  background: url("https://oldtowncrier.files.wordpress.com/2014/10/chef-phuong-ho-14-8-7-27.jpeg");
+  background: url("../graphics/closeup_banhxeo.jpg");
 }
 
 .image-contact {
@@ -361,7 +361,7 @@ form {
 }
 
 .image-contact.load {
-  background: url("../graphics/restaurant_mirrors.JPG");
+  background: url("../graphics/closeup_bo_la_muong.jpg");
 }
 
 .image-greet,
@@ -388,20 +388,32 @@ form {
 .image-greet,
 .image-greet.load {
   height: 55%;
-  background-size: 39% auto;
-  background-position: right 80px bottom 265px;
+  background-size: 40% auto;
+  background-position: 92.5% 40%;
 }
 
-.image-press,
-.image-press.load {
+.image-about,
+.image-about.load {
   background-size: 40% auto;
   background-position: 91% 20%;
 }
 
+.image-menu,
+.image-menu.load {
+  background-size: 48% auto;
+  background-position: right 22px bottom 250px;
+}
+
+.image-press,
+.image-press.load {
+  background-size: 45% auto;
+  background-position: 93% 30%;
+}
+
 .image-contact,
 .image-contact.load {
-  background-size: 40% auto;
-  background-position: 90% 90%;
+  background-size: 43% auto;
+  background-position: 97.5% 90%;
 }
 
 /* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
