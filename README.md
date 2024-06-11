@@ -11,6 +11,9 @@ Features
 - Lazy loading images
 - Responsive on desktop and mobile devices
 - Google PageSpeed score of 100/100
+- Deploys GitHub Page to Netlify
+- Domain Hosted through SquareSpace (formerly Google Domains)
+- SSL certs through Namecheap
 
 
 Installation
