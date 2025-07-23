@@ -12,7 +12,7 @@ Features
 - Responsive on desktop and mobile devices
 - Google PageSpeed score of 100/100
 - Deploys GitHub Page to Netlify
-- Domain Hosted through SquareSpace (formerly Google Domains)
+- Domain Hosted through Namecheap (formerly Google Domains and SquareSpace)
 - SSL certs through Namecheap
 
 
